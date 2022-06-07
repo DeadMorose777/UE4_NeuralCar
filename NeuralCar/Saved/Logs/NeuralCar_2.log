@@ -1,0 +1,1506 @@
+﻿Log file open, 11/04/18 23:56:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NeuralCar
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.744879
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.364s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz, GPU: NVIDIA GeForce GTX 670MX
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.04-20.56.24:978][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-20.56.24:979][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.04-20.56.25:066][  0]LogHAL: Display: Platform has ~ 16 GB [17130799104 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.04-20.56.25:066][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.04-20.56.25:066][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.04-20.56.25:084][  0]LogInit: Computer: DESKTOP-0ACU3I4
+[2018.11.04-20.56.25:084][  0]LogInit: User: Admin
+[2018.11.04-20.56.25:084][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.04-20.56.25:084][  0]LogInit: High frequency timer resolution =2.338434 MHz
+[2018.11.04-20.56.25:085][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.04-20.56.25:085][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-20.56.25:085][  0]LogMemory: Process Physical Memory: 100.98 MB used, 100.98 MB peak
+[2018.11.04-20.56.25:085][  0]LogMemory: Process Virtual Memory: 89.44 MB used, 89.44 MB peak
+[2018.11.04-20.56.25:086][  0]LogMemory: Physical Memory: 9865.98 MB used,  6471.22 MB free, 16337.20 MB total
+[2018.11.04-20.56.25:086][  0]LogMemory: Virtual Memory: 4638.56 MB used,  6471.22 MB free, 134217728.00 MB total
+[2018.11.04-20.56.25:986][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.04-20.56.25:986][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.04-20.56.25:991][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.11.04-20.56.26:070][  0]LogStreaming: Display: Took  0.085s to InitEngineTextLocalization.
+[2018.11.04-20.56.26:071][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.04-20.56.26:506][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.04-20.56.26:506][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.04-20.56.36:328][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-20.56.36:328][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.04-20.56.36:563][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670MX' (Feature Level 11_0)
+[2018.11.04-20.56.36:563][  0]LogD3D11RHI:       3029/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.04-20.56.36:571][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.04-20.56.36:571][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.04-20.56.36:571][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.04-20.56.36:595][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.04-20.56.36:595][  0]LogD3D11RHI:     GPU DeviceId: 0x11a1 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.04-20.56.36:595][  0]LogWindows: EnumDisplayDevices:
+[2018.11.04-20.56.36:596][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670MX' (P:1 D:1)
+[2018.11.04-20.56.36:597][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-20.56.36:598][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-20.56.36:599][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-20.56.36:600][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.04-20.56.36:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670MX
+[2018.11.04-20.56.36:600][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.11.04-20.56.36:600][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.11.04-20.56.36:600][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2018.11.04-20.56.36:777][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.04-20.56.36:810][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.04-20.56.36:861][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/UnrealProjectD/NeuralCar/Intermediate/Shaders/WorkingDirectory/9148/).
+[2018.11.04-20.56.36:861][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/0D16E731472995E797D046965AA96EEC/'.
+[2018.11.04-20.56.38:166][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.04-20.56.38:218][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.04-20.56.38:274][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.04-20.56.38:334][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.04-20.56.38:406][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.04-20.56.38:473][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.04-20.56.38:528][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.04-20.56.38:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.04-20.56.38:626][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:953][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-20.56.38:960][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.04-20.56.39:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-20.56.39:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-20.56.39:216][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-20.56.39:216][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-20.56.39:261][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.04-20.56.39:305][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.04-20.56.39:349][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.04-20.56.39:422][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.04-20.56.39:455][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.04-20.56.39:455][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.04-20.56.40:014][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.04-20.56.40:014][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.04-20.56.40:014][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.04-20.56.47:108][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.04-20.56.47:619][  0]LogDerivedDataCache: Loaded boot cache 0.51s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-20.56.47:623][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.04-20.56.47:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjectD/NeuralCar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.04-20.56.47:623][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.04-20.56.47:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjectD/NeuralCar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.04-20.56.47:623][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.04-20.56.47:718][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.04-20.56.47:733][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.04-20.56.47:733][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.04-20.56.47:733][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.04-20.56.47:801][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.04-20.56.47:805][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.04-20.56.47:855][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.04-20.56.49:699][  0]LogAssetRegistry: FAssetRegistry took 0.0376 seconds to start up
+[2018.11.04-20.56.51:090][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-20.56.52:034][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.04-20.56.52:053][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.04-20.56.52:054][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.04-20.56.52:054][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.04-20.56.52:054][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.04-20.56.52:106][  0]LogNetVersion: NeuralCar 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 965436850)
+[2018.11.04-20.56.53:921][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.335797 seconds
+[2018.11.04-20.56.53:950][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.04-20.56.53:950][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.04-20.56.53:950][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.04-20.57.20:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.04-20.57.20:474][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.04-20.57.20:989][  0]SourceControl: Source control is disabled
+[2018.11.04-20.57.20:990][  0]SourceControl: Source control is disabled
+[2018.11.04-20.57.20:996][  0]SourceControl: Source control is disabled
+[2018.11.04-20.57.21:000][  0]SourceControl: Source control is disabled
+[2018.11.04-20.57.21:549][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.04-20.57.21:764][  0]LogOcInput: OculusInput pre-init called
+[2018.11.04-20.57.21:976][  0]LogEngine: Initializing Engine...
+[2018.11.04-20.57.21:979][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-20.57.21:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-20.57.21:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-20.57.21:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-20.57.21:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-20.57.22:659][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.04-20.57.22:726][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.04-20.57.22:768][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-20.57.22:819][  0]LogInit: FAudioDevice initialized.
+[2018.11.04-20.57.22:820][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.04-20.57.23:072][  0]LogDerivedDataCache: Saved boot cache 0.25s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-20.57.23:117][  0]LogInit: Texture streaming: Enabled
+[2018.11.04-20.57.23:190][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.04-20.57.23:252][  0]LogInit: Transaction tracking system initialized
+[2018.11.04-20.57.23:369][  0]BlueprintLog: New page: Editor Load
+[2018.11.04-20.57.23:776][  0]LocalizationService: Localization service is disabled
+[2018.11.04-20.57.25:736][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.04-20.57.25:737][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.04-20.57.25:737][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.04-20.57.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-20.57.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-20.57.25:738][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-20.57.25:738][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-20.57.26:015][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/' took 0.03s
+[2018.11.04-20.57.26:691][  0]SourceControl: Source control is disabled
+[2018.11.04-20.57.26:691][  0]Cmd: MAP LOAD FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.04-20.57.26:693][  0]LightingResults: New page: Lighting Build
+[2018.11.04-20.57.26:708][  0]MapCheck: New page: Map Check
+[2018.11.04-20.57.26:708][  0]LightingResults: New page: Lighting Build
+[2018.11.04-20.57.29:281][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-20.57.29:317][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.04-20.57.29:391][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.04-20.57.29:731][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 339,517ms to complete.
+[2018.11.04-20.57.29:731][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 3.039
+[2018.11.04-20.57.30:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-20.57.30:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-20.57.30:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-20.57.30:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-20.57.30:238][  0]LogCollectionManager: Loaded 0 collections in 0.010010 seconds
+[2018.11.04-20.57.30:305][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Saved/Collections/' took 0.01s
+[2018.11.04-20.57.30:305][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/Developers/Admin/Collections/' took 0.01s
+[2018.11.04-20.57.30:305][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/Collections/' took 0.01s
+[2018.11.04-20.57.30:305][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.04-20.57.30:342][  0]LogContentBrowser: Native class hierarchy populated in 0.0362 seconds. Added 2574 classes and 606 folders.
+[2018.11.04-20.57.30:374][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.04-20.57.32:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.04-20.57.32:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.04-20.57.32:343][  0]LogSlate: Took 0.062859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.04-20.57.32:371][  0]LogSlate: Took 0.021797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.04-20.57.32:413][  0]LogSlate: Took 0.023724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.04-20.57.32:866][  0]LogRenderer: Reallocating scene render targets to support 1236x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.04-20.57.33:270][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.04-20.57.33:270][  0]LogLoad: (Engine Initialization) Total time: 82.28 seconds
+[2018.11.04-20.57.33:270][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.04-20.57.33:297][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.04-20.57.33:298][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.04-20.57.33:298][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2018.11.04-20.57.33:298][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2018.11.04-20.57.33:298][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2018.11.04-20.57.33:331][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.04-20.57.33:469][  0]LogSlate: Took 0.012225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-20.57.33:775][  4]LogAssetRegistry: Asset discovery search completed in 44.0991 seconds
+[2018.11.04-20.57.33:781][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.04-20.57.33:781][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000239 seconds (updated 0 objects)
+[2018.11.04-21.11.40:941][528]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.11.40:942][528]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.11.45:502][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.11.45:568][762]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.11.45:623][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.11.45:624][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-21.11.45:639][762]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:11:45)
+[2018.11.04-21.11.45:640][762]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.11.45:726][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085971s)
+[2018.11.04-21.11.45:728][762]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.11.45:729][762]LogPlayLevel: PIE: World Init took: (0.002475s)
+[2018.11.04-21.11.45:729][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.089161s)
+[2018.11.04-21.11.45:815][762]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.11.45:859][762]LogInit: FAudioDevice initialized.
+[2018.11.04-21.11.45:919][762]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.11.45:944][762]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.11.45
+[2018.11.04-21.11.45:945][762]LogWorld: Bringing up level for play took: 0.012271
+[2018.11.04-21.11.45:987][762]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2018.11.04-21.11.45:989][762]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0,639
+[2018.11.04-21.11.45:990][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.12.27:961][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.12.27:962][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.12.28:013][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.12.28:013][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.12.28:078][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.12.28:137][254]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.11.04-21.13.36:242][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.13.43:127][872]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.13.43:127][872]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.13.43:755][908]LogSlate: Took 0.000798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-21.13.45:429][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent_C' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:429][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:SigmoidFunc.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:429][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:SigmoidFunc.K2Node_FunctionResult_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:429][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Generate.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:429][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Use this NN.K2Node_FunctionResult_1' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Use this NN.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Load Neurons Network at this Component by name.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Get Sum Neuron.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Get Sum Neuron.K2Node_FunctionResult_1' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Print Neural Network Weights.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Generate CIE.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Load NN at this component by NN name.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Save NN at this component by NN name.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:430][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Test NN.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Teach with error back propagation method.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Teach with error back propagation method.K2Node_FunctionResult_1' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:DXSigmoid.K2Node_FunctionResult_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:DXSigmoid.K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Get accuracy (MSE).K2Node_FunctionEntry_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:Get accuracy (MSE).K2Node_FunctionResult_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:TestMacro.K2Node_Tunnel_0' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.NeuralComponent:TestMacro.K2Node_Tunnel_1' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:431][908]LogMetaData: Removing '/Game/NeuralComponent/NeuralComponent.SKEL_NeuralComponent_C' ref from Metadata '/Game/NeuralComponent/NeuronComponent.PackageMetaData'
+[2018.11.04-21.13.45:495][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuralComponent/NeuralComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuralComponent.uasset" SILENT=true
+[2018.11.04-21.13.46:494][908]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuralComponent76127E904BA8A986FEBFD3AC4B011048.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuralComponent.uasset'
+[2018.11.04-21.13.46:520][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuralComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-21.13.46:587][908]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent594A56DC4195C8A1BD370E9BD0CA67F1.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuronComponent.uasset'
+[2018.11.04-21.13.49:307][957]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-21.13.49:718][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.04-21.13.50:318][957]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap1851F1E34E56A3DEEAE60894E6E582B8.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.11.04-21.13.50:423][957]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.059
+[2018.11.04-21.13.50:499][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2018.11.04-21.13.50:809][957]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan11D1BF8E4CB5724BEC89648B7ED270CC.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Sedan/Sedan.uasset'
+[2018.11.04-21.13.53:526][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-21.13.53:560][102]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent4AA6923D46CE08ECF31F37A6B16CA0D6.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-21.14.28:919][765]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2018.11.04-21.14.29:586][784]LogSlate: Took 0.011637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.04-21.14.30:556][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.16.01:564][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.16.15:385][291]LogSlate: Took 0.015997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.11.04-21.16.20:171][540]LogBlueprintUserMessages: [NeuronComponent] 0.0
+[2018.11.04-21.16.20:180][540]LogBlueprintUserMessages: [NeuronComponent] 1.0
+[2018.11.04-21.16.20:189][540]LogBlueprintUserMessages: [NeuronComponent] 2.0
+[2018.11.04-21.16.20:198][540]LogBlueprintUserMessages: [NeuronComponent] 3.0
+[2018.11.04-21.16.20:207][540]LogBlueprintUserMessages: [NeuronComponent] 4.0
+[2018.11.04-21.16.20:215][540]LogBlueprintUserMessages: [NeuronComponent] 5.0
+[2018.11.04-21.16.20:223][540]LogBlueprintUserMessages: [NeuronComponent] 6.0
+[2018.11.04-21.16.20:232][540]LogBlueprintUserMessages: [NeuronComponent] 7.0
+[2018.11.04-21.16.20:240][540]LogBlueprintUserMessages: [NeuronComponent] 8.0
+[2018.11.04-21.16.20:248][540]LogBlueprintUserMessages: [NeuronComponent] 9.0
+[2018.11.04-21.16.20:257][540]LogBlueprintUserMessages: [NeuronComponent] 10.0
+[2018.11.04-21.16.20:266][540]LogBlueprintUserMessages: [NeuronComponent] 11.0
+[2018.11.04-21.16.20:274][540]LogBlueprintUserMessages: [NeuronComponent] 12.0
+[2018.11.04-21.16.20:283][540]LogBlueprintUserMessages: [NeuronComponent] 13.0
+[2018.11.04-21.16.20:292][540]LogBlueprintUserMessages: [NeuronComponent] 14.0
+[2018.11.04-21.16.20:300][540]LogBlueprintUserMessages: [NeuronComponent] 15.000001
+[2018.11.04-21.16.20:308][540]LogBlueprintUserMessages: [NeuronComponent] 16.0
+[2018.11.04-21.16.20:317][540]LogBlueprintUserMessages: [NeuronComponent] 17.0
+[2018.11.04-21.16.20:325][540]LogBlueprintUserMessages: [NeuronComponent] 18.0
+[2018.11.04-21.16.20:334][540]LogBlueprintUserMessages: [NeuronComponent] 19.0
+[2018.11.04-21.16.20:342][540]LogBlueprintUserMessages: [NeuronComponent] 20.0
+[2018.11.04-21.16.20:351][540]LogBlueprintUserMessages: [NeuronComponent] 21.0
+[2018.11.04-21.16.20:360][540]LogBlueprintUserMessages: [NeuronComponent] 22.0
+[2018.11.04-21.16.20:368][540]LogBlueprintUserMessages: [NeuronComponent] 23.0
+[2018.11.04-21.16.20:377][540]LogBlueprintUserMessages: [NeuronComponent] 24.0
+[2018.11.04-21.16.20:386][540]LogBlueprintUserMessages: [NeuronComponent] 25.0
+[2018.11.04-21.16.20:395][540]LogBlueprintUserMessages: [NeuronComponent] 26.0
+[2018.11.04-21.16.20:403][540]LogBlueprintUserMessages: [NeuronComponent] 27.000002
+[2018.11.04-21.16.20:412][540]LogBlueprintUserMessages: [NeuronComponent] 28.0
+[2018.11.04-21.16.20:420][540]LogBlueprintUserMessages: [NeuronComponent] 29.0
+[2018.11.04-21.16.20:429][540]LogBlueprintUserMessages: [NeuronComponent] 30.000002
+[2018.11.04-21.16.20:437][540]LogBlueprintUserMessages: [NeuronComponent] 31.0
+[2018.11.04-21.16.20:446][540]LogBlueprintUserMessages: [NeuronComponent] 32.0
+[2018.11.04-21.16.20:455][540]LogBlueprintUserMessages: [NeuronComponent] 33.0
+[2018.11.04-21.16.20:463][540]LogBlueprintUserMessages: [NeuronComponent] 34.0
+[2018.11.04-21.16.20:472][540]LogBlueprintUserMessages: [NeuronComponent] 35.0
+[2018.11.04-21.16.20:480][540]LogBlueprintUserMessages: [NeuronComponent] 36.0
+[2018.11.04-21.16.20:489][540]LogBlueprintUserMessages: [NeuronComponent] 37.0
+[2018.11.04-21.16.20:497][540]LogBlueprintUserMessages: [NeuronComponent] 38.0
+[2018.11.04-21.16.20:506][540]LogBlueprintUserMessages: [NeuronComponent] 39.0
+[2018.11.04-21.16.20:514][540]LogBlueprintUserMessages: [NeuronComponent] 40.0
+[2018.11.04-21.16.20:523][540]LogBlueprintUserMessages: [NeuronComponent] 41.0
+[2018.11.04-21.16.20:537][540]LogBlueprintUserMessages: [NeuronComponent] 42.0
+[2018.11.04-21.16.20:549][540]LogBlueprintUserMessages: [NeuronComponent] 43.0
+[2018.11.04-21.16.20:557][540]LogBlueprintUserMessages: [NeuronComponent] 44.0
+[2018.11.04-21.16.20:566][540]LogBlueprintUserMessages: [NeuronComponent] 45.0
+[2018.11.04-21.16.20:574][540]LogBlueprintUserMessages: [NeuronComponent] 46.0
+[2018.11.04-21.16.20:583][540]LogBlueprintUserMessages: [NeuronComponent] 47.0
+[2018.11.04-21.16.20:591][540]LogBlueprintUserMessages: [NeuronComponent] 48.0
+[2018.11.04-21.16.20:600][540]LogBlueprintUserMessages: [NeuronComponent] 49.0
+[2018.11.04-21.16.20:608][540]LogBlueprintUserMessages: [NeuronComponent] 50.0
+[2018.11.04-21.16.20:616][540]LogBlueprintUserMessages: [NeuronComponent] 51.0
+[2018.11.04-21.16.20:625][540]LogBlueprintUserMessages: [NeuronComponent] 52.0
+[2018.11.04-21.16.20:633][540]LogBlueprintUserMessages: [NeuronComponent] 52.999996
+[2018.11.04-21.16.20:641][540]LogBlueprintUserMessages: [NeuronComponent] 54.000004
+[2018.11.04-21.16.20:650][540]LogBlueprintUserMessages: [NeuronComponent] 55.0
+[2018.11.04-21.16.20:658][540]LogBlueprintUserMessages: [NeuronComponent] 56.0
+[2018.11.04-21.16.20:667][540]LogBlueprintUserMessages: [NeuronComponent] 57.0
+[2018.11.04-21.16.20:676][540]LogBlueprintUserMessages: [NeuronComponent] 58.0
+[2018.11.04-21.16.20:684][540]LogBlueprintUserMessages: [NeuronComponent] 58.999996
+[2018.11.04-21.16.20:693][540]LogBlueprintUserMessages: [NeuronComponent] 60.000004
+[2018.11.04-21.16.20:702][540]LogBlueprintUserMessages: [NeuronComponent] 61.0
+[2018.11.04-21.16.20:711][540]LogBlueprintUserMessages: [NeuronComponent] 62.0
+[2018.11.04-21.16.20:719][540]LogBlueprintUserMessages: [NeuronComponent] 63.0
+[2018.11.04-21.16.20:728][540]LogBlueprintUserMessages: [NeuronComponent] 64.0
+[2018.11.04-21.16.20:736][540]LogBlueprintUserMessages: [NeuronComponent] 65.0
+[2018.11.04-21.16.20:745][540]LogBlueprintUserMessages: [NeuronComponent] 66.0
+[2018.11.04-21.16.20:753][540]LogBlueprintUserMessages: [NeuronComponent] 67.0
+[2018.11.04-21.16.20:762][540]LogBlueprintUserMessages: [NeuronComponent] 68.0
+[2018.11.04-21.16.20:771][540]LogBlueprintUserMessages: [NeuronComponent] 69.0
+[2018.11.04-21.16.20:779][540]LogBlueprintUserMessages: [NeuronComponent] 70.0
+[2018.11.04-21.16.20:789][540]LogBlueprintUserMessages: [NeuronComponent] 71.0
+[2018.11.04-21.16.20:797][540]LogBlueprintUserMessages: [NeuronComponent] 72.0
+[2018.11.04-21.16.20:806][540]LogBlueprintUserMessages: [NeuronComponent] 73.0
+[2018.11.04-21.16.20:814][540]LogBlueprintUserMessages: [NeuronComponent] 74.0
+[2018.11.04-21.16.20:823][540]LogBlueprintUserMessages: [NeuronComponent] 75.0
+[2018.11.04-21.16.20:832][540]LogBlueprintUserMessages: [NeuronComponent] 76.0
+[2018.11.04-21.16.20:840][540]LogBlueprintUserMessages: [NeuronComponent] 77.0
+[2018.11.04-21.16.20:849][540]LogBlueprintUserMessages: [NeuronComponent] 78.0
+[2018.11.04-21.16.20:857][540]LogBlueprintUserMessages: [NeuronComponent] 79.0
+[2018.11.04-21.16.20:866][540]LogBlueprintUserMessages: [NeuronComponent] 80.0
+[2018.11.04-21.16.20:875][540]LogBlueprintUserMessages: [NeuronComponent] 81.0
+[2018.11.04-21.16.20:884][540]LogBlueprintUserMessages: [NeuronComponent] 82.0
+[2018.11.04-21.16.20:894][540]LogBlueprintUserMessages: [NeuronComponent] 83.0
+[2018.11.04-21.16.20:903][540]LogBlueprintUserMessages: [NeuronComponent] 84.0
+[2018.11.04-21.16.20:912][540]LogBlueprintUserMessages: [NeuronComponent] 85.0
+[2018.11.04-21.16.20:920][540]LogBlueprintUserMessages: [NeuronComponent] 86.0
+[2018.11.04-21.16.20:929][540]LogBlueprintUserMessages: [NeuronComponent] 87.0
+[2018.11.04-21.16.20:937][540]LogBlueprintUserMessages: [NeuronComponent] 88.0
+[2018.11.04-21.16.20:946][540]LogBlueprintUserMessages: [NeuronComponent] 89.0
+[2018.11.04-21.16.20:955][540]LogBlueprintUserMessages: [NeuronComponent] 90.0
+[2018.11.04-21.16.20:963][540]LogBlueprintUserMessages: [NeuronComponent] 91.0
+[2018.11.04-21.16.20:972][540]LogBlueprintUserMessages: [NeuronComponent] 92.0
+[2018.11.04-21.16.20:980][540]LogBlueprintUserMessages: [NeuronComponent] 93.0
+[2018.11.04-21.16.20:989][540]LogBlueprintUserMessages: [NeuronComponent] 94.0
+[2018.11.04-21.16.20:997][540]LogBlueprintUserMessages: [NeuronComponent] 95.0
+[2018.11.04-21.16.21:006][540]LogBlueprintUserMessages: [NeuronComponent] 96.0
+[2018.11.04-21.16.21:014][540]LogBlueprintUserMessages: [NeuronComponent] 97.0
+[2018.11.04-21.16.21:023][540]LogBlueprintUserMessages: [NeuronComponent] 98.0
+[2018.11.04-21.16.21:032][540]LogBlueprintUserMessages: [NeuronComponent] 99.0
+[2018.11.04-21.16.21:040][540]LogBlueprintUserMessages: [NeuronComponent] 100.0
+[2018.11.04-21.16.27:702][911]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NeuralComponent/NeuralComponent.NeuralComponent
+[2018.11.04-21.16.29:457][911]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2018.11.04-21.16.32:709][911]LogSlate: Took 0.024924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.04-21.17.25:718][700]LogBlueprintUserMessages: [NeuronComponent] 0.0
+[2018.11.04-21.17.25:726][700]LogBlueprintUserMessages: [NeuronComponent] 0.2
+[2018.11.04-21.17.25:735][700]LogBlueprintUserMessages: [NeuronComponent] 0.4
+[2018.11.04-21.17.25:743][700]LogBlueprintUserMessages: [NeuronComponent] 0.6
+[2018.11.04-21.17.25:752][700]LogBlueprintUserMessages: [NeuronComponent] 0.8
+[2018.11.04-21.17.25:760][700]LogBlueprintUserMessages: [NeuronComponent] 1.0
+[2018.11.04-21.17.25:768][700]LogBlueprintUserMessages: [NeuronComponent] 1.2
+[2018.11.04-21.17.25:777][700]LogBlueprintUserMessages: [NeuronComponent] 1.4
+[2018.11.04-21.17.25:785][700]LogBlueprintUserMessages: [NeuronComponent] 1.6
+[2018.11.04-21.17.25:793][700]LogBlueprintUserMessages: [NeuronComponent] 1.8
+[2018.11.04-21.17.25:802][700]LogBlueprintUserMessages: [NeuronComponent] 2.0
+[2018.11.04-21.17.25:810][700]LogBlueprintUserMessages: [NeuronComponent] 2.2
+[2018.11.04-21.17.25:818][700]LogBlueprintUserMessages: [NeuronComponent] 2.4
+[2018.11.04-21.17.25:827][700]LogBlueprintUserMessages: [NeuronComponent] 2.6
+[2018.11.04-21.17.25:835][700]LogBlueprintUserMessages: [NeuronComponent] 2.8
+[2018.11.04-21.17.25:844][700]LogBlueprintUserMessages: [NeuronComponent] 3.0
+[2018.11.04-21.17.25:852][700]LogBlueprintUserMessages: [NeuronComponent] 3.2
+[2018.11.04-21.17.25:861][700]LogBlueprintUserMessages: [NeuronComponent] 3.4
+[2018.11.04-21.17.25:869][700]LogBlueprintUserMessages: [NeuronComponent] 3.6
+[2018.11.04-21.17.25:877][700]LogBlueprintUserMessages: [NeuronComponent] 3.8
+[2018.11.04-21.17.25:886][700]LogBlueprintUserMessages: [NeuronComponent] 4.0
+[2018.11.04-21.17.25:894][700]LogBlueprintUserMessages: [NeuronComponent] 4.2
+[2018.11.04-21.17.25:902][700]LogBlueprintUserMessages: [NeuronComponent] 4.4
+[2018.11.04-21.17.25:910][700]LogBlueprintUserMessages: [NeuronComponent] 4.6
+[2018.11.04-21.17.25:919][700]LogBlueprintUserMessages: [NeuronComponent] 4.8
+[2018.11.04-21.17.25:927][700]LogBlueprintUserMessages: [NeuronComponent] 5.0
+[2018.11.04-21.17.25:935][700]LogBlueprintUserMessages: [NeuronComponent] 5.2
+[2018.11.04-21.17.25:944][700]LogBlueprintUserMessages: [NeuronComponent] 5.4
+[2018.11.04-21.17.25:953][700]LogBlueprintUserMessages: [NeuronComponent] 5.6
+[2018.11.04-21.17.25:961][700]LogBlueprintUserMessages: [NeuronComponent] 5.8
+[2018.11.04-21.17.25:969][700]LogBlueprintUserMessages: [NeuronComponent] 6.0
+[2018.11.04-21.17.25:978][700]LogBlueprintUserMessages: [NeuronComponent] 6.2
+[2018.11.04-21.17.25:986][700]LogBlueprintUserMessages: [NeuronComponent] 6.4
+[2018.11.04-21.17.25:994][700]LogBlueprintUserMessages: [NeuronComponent] 6.6
+[2018.11.04-21.17.26:002][700]LogBlueprintUserMessages: [NeuronComponent] 6.8
+[2018.11.04-21.17.26:011][700]LogBlueprintUserMessages: [NeuronComponent] 7.0
+[2018.11.04-21.17.26:019][700]LogBlueprintUserMessages: [NeuronComponent] 7.2
+[2018.11.04-21.17.26:028][700]LogBlueprintUserMessages: [NeuronComponent] 7.4
+[2018.11.04-21.17.26:036][700]LogBlueprintUserMessages: [NeuronComponent] 7.6
+[2018.11.04-21.17.26:045][700]LogBlueprintUserMessages: [NeuronComponent] 7.8
+[2018.11.04-21.17.26:053][700]LogBlueprintUserMessages: [NeuronComponent] 8.0
+[2018.11.04-21.17.26:062][700]LogBlueprintUserMessages: [NeuronComponent] 8.2
+[2018.11.04-21.17.26:070][700]LogBlueprintUserMessages: [NeuronComponent] 8.4
+[2018.11.04-21.17.26:079][700]LogBlueprintUserMessages: [NeuronComponent] 8.6
+[2018.11.04-21.17.26:087][700]LogBlueprintUserMessages: [NeuronComponent] 8.8
+[2018.11.04-21.17.26:095][700]LogBlueprintUserMessages: [NeuronComponent] 9.0
+[2018.11.04-21.17.26:103][700]LogBlueprintUserMessages: [NeuronComponent] 9.2
+[2018.11.04-21.17.26:112][700]LogBlueprintUserMessages: [NeuronComponent] 9.4
+[2018.11.04-21.17.26:120][700]LogBlueprintUserMessages: [NeuronComponent] 9.6
+[2018.11.04-21.17.26:129][700]LogBlueprintUserMessages: [NeuronComponent] 9.8
+[2018.11.04-21.17.26:137][700]LogBlueprintUserMessages: [NeuronComponent] 10.0
+[2018.11.04-21.17.26:146][700]LogBlueprintUserMessages: [NeuronComponent] 10.2
+[2018.11.04-21.17.26:155][700]LogBlueprintUserMessages: [NeuronComponent] 10.400001
+[2018.11.04-21.17.26:163][700]LogBlueprintUserMessages: [NeuronComponent] 10.599999
+[2018.11.04-21.17.26:171][700]LogBlueprintUserMessages: [NeuronComponent] 10.8
+[2018.11.04-21.17.26:180][700]LogBlueprintUserMessages: [NeuronComponent] 11.0
+[2018.11.04-21.17.26:189][700]LogBlueprintUserMessages: [NeuronComponent] 11.200001
+[2018.11.04-21.17.26:201][700]LogBlueprintUserMessages: [NeuronComponent] 11.4
+[2018.11.04-21.17.26:209][700]LogBlueprintUserMessages: [NeuronComponent] 11.599999
+[2018.11.04-21.17.26:218][700]LogBlueprintUserMessages: [NeuronComponent] 11.8
+[2018.11.04-21.17.26:227][700]LogBlueprintUserMessages: [NeuronComponent] 12.0
+[2018.11.04-21.17.26:235][700]LogBlueprintUserMessages: [NeuronComponent] 12.2
+[2018.11.04-21.17.26:244][700]LogBlueprintUserMessages: [NeuronComponent] 12.4
+[2018.11.04-21.17.26:252][700]LogBlueprintUserMessages: [NeuronComponent] 12.6
+[2018.11.04-21.17.26:261][700]LogBlueprintUserMessages: [NeuronComponent] 12.8
+[2018.11.04-21.17.26:269][700]LogBlueprintUserMessages: [NeuronComponent] 13.0
+[2018.11.04-21.17.26:279][700]LogBlueprintUserMessages: [NeuronComponent] 13.2
+[2018.11.04-21.17.26:288][700]LogBlueprintUserMessages: [NeuronComponent] 13.400001
+[2018.11.04-21.17.26:296][700]LogBlueprintUserMessages: [NeuronComponent] 13.6
+[2018.11.04-21.17.26:305][700]LogBlueprintUserMessages: [NeuronComponent] 13.799999
+[2018.11.04-21.17.26:313][700]LogBlueprintUserMessages: [NeuronComponent] 14.0
+[2018.11.04-21.17.26:322][700]LogBlueprintUserMessages: [NeuronComponent] 14.200001
+[2018.11.04-21.17.26:332][700]LogBlueprintUserMessages: [NeuronComponent] 14.4
+[2018.11.04-21.17.26:341][700]LogBlueprintUserMessages: [NeuronComponent] 14.599999
+[2018.11.04-21.17.26:350][700]LogBlueprintUserMessages: [NeuronComponent] 14.8
+[2018.11.04-21.17.26:359][700]LogBlueprintUserMessages: [NeuronComponent] 15.000001
+[2018.11.04-21.17.26:368][700]LogBlueprintUserMessages: [NeuronComponent] 15.2
+[2018.11.04-21.17.26:376][700]LogBlueprintUserMessages: [NeuronComponent] 15.4
+[2018.11.04-21.17.26:385][700]LogBlueprintUserMessages: [NeuronComponent] 15.6
+[2018.11.04-21.17.26:393][700]LogBlueprintUserMessages: [NeuronComponent] 15.800001
+[2018.11.04-21.17.26:402][700]LogBlueprintUserMessages: [NeuronComponent] 16.0
+[2018.11.04-21.17.26:410][700]LogBlueprintUserMessages: [NeuronComponent] 16.200001
+[2018.11.04-21.17.26:419][700]LogBlueprintUserMessages: [NeuronComponent] 16.4
+[2018.11.04-21.17.26:426][700]LogBlueprintUserMessages: [NeuronComponent] 16.599998
+[2018.11.04-21.17.26:435][700]LogBlueprintUserMessages: [NeuronComponent] 16.799999
+[2018.11.04-21.17.26:447][700]LogBlueprintUserMessages: [NeuronComponent] 17.0
+[2018.11.04-21.17.26:455][700]LogBlueprintUserMessages: [NeuronComponent] 17.200001
+[2018.11.04-21.17.26:464][700]LogBlueprintUserMessages: [NeuronComponent] 17.4
+[2018.11.04-21.17.26:472][700]LogBlueprintUserMessages: [NeuronComponent] 17.6
+[2018.11.04-21.17.26:481][700]LogBlueprintUserMessages: [NeuronComponent] 17.800001
+[2018.11.04-21.17.26:489][700]LogBlueprintUserMessages: [NeuronComponent] 18.0
+[2018.11.04-21.17.26:498][700]LogBlueprintUserMessages: [NeuronComponent] 18.199999
+[2018.11.04-21.17.26:506][700]LogBlueprintUserMessages: [NeuronComponent] 18.4
+[2018.11.04-21.17.26:515][700]LogBlueprintUserMessages: [NeuronComponent] 18.6
+[2018.11.04-21.17.26:523][700]LogBlueprintUserMessages: [NeuronComponent] 18.799999
+[2018.11.04-21.17.26:532][700]LogBlueprintUserMessages: [NeuronComponent] 19.0
+[2018.11.04-21.17.26:540][700]LogBlueprintUserMessages: [NeuronComponent] 19.200001
+[2018.11.04-21.17.26:549][700]LogBlueprintUserMessages: [NeuronComponent] 19.400002
+[2018.11.04-21.17.26:557][700]LogBlueprintUserMessages: [NeuronComponent] 19.6
+[2018.11.04-21.17.26:565][700]LogBlueprintUserMessages: [NeuronComponent] 19.799999
+[2018.11.04-21.17.26:574][700]LogBlueprintUserMessages: [NeuronComponent] 20.0
+[2018.11.04-21.17.26:582][700]LogBlueprintUserMessages: [NeuronComponent] 20.200001
+[2018.11.04-21.17.26:591][700]LogBlueprintUserMessages: [NeuronComponent] 20.4
+[2018.11.04-21.17.26:599][700]LogBlueprintUserMessages: [NeuronComponent] 20.6
+[2018.11.04-21.17.26:608][700]LogBlueprintUserMessages: [NeuronComponent] 20.800001
+[2018.11.04-21.17.26:618][700]LogBlueprintUserMessages: [NeuronComponent] 21.0
+[2018.11.04-21.17.26:626][700]LogBlueprintUserMessages: [NeuronComponent] 21.199999
+[2018.11.04-21.17.26:635][700]LogBlueprintUserMessages: [NeuronComponent] 21.4
+[2018.11.04-21.17.26:643][700]LogBlueprintUserMessages: [NeuronComponent] 21.6
+[2018.11.04-21.17.26:652][700]LogBlueprintUserMessages: [NeuronComponent] 21.799999
+[2018.11.04-21.17.26:661][700]LogBlueprintUserMessages: [NeuronComponent] 22.0
+[2018.11.04-21.17.26:669][700]LogBlueprintUserMessages: [NeuronComponent] 22.200001
+[2018.11.04-21.17.26:677][700]LogBlueprintUserMessages: [NeuronComponent] 22.400002
+[2018.11.04-21.17.26:686][700]LogBlueprintUserMessages: [NeuronComponent] 22.6
+[2018.11.04-21.17.26:695][700]LogBlueprintUserMessages: [NeuronComponent] 22.799999
+[2018.11.04-21.17.26:703][700]LogBlueprintUserMessages: [NeuronComponent] 23.0
+[2018.11.04-21.17.26:712][700]LogBlueprintUserMessages: [NeuronComponent] 23.199999
+[2018.11.04-21.17.26:720][700]LogBlueprintUserMessages: [NeuronComponent] 23.4
+[2018.11.04-21.17.26:729][700]LogBlueprintUserMessages: [NeuronComponent] 23.6
+[2018.11.04-21.17.26:737][700]LogBlueprintUserMessages: [NeuronComponent] 23.800001
+[2018.11.04-21.17.26:745][700]LogBlueprintUserMessages: [NeuronComponent] 24.0
+[2018.11.04-21.17.26:754][700]LogBlueprintUserMessages: [NeuronComponent] 24.200001
+[2018.11.04-21.17.26:762][700]LogBlueprintUserMessages: [NeuronComponent] 24.4
+[2018.11.04-21.17.26:770][700]LogBlueprintUserMessages: [NeuronComponent] 24.6
+[2018.11.04-21.17.26:779][700]LogBlueprintUserMessages: [NeuronComponent] 24.799999
+[2018.11.04-21.17.26:787][700]LogBlueprintUserMessages: [NeuronComponent] 25.0
+[2018.11.04-21.17.26:796][700]LogBlueprintUserMessages: [NeuronComponent] 25.200001
+[2018.11.04-21.17.26:804][700]LogBlueprintUserMessages: [NeuronComponent] 25.400002
+[2018.11.04-21.17.26:813][700]LogBlueprintUserMessages: [NeuronComponent] 25.6
+[2018.11.04-21.17.26:821][700]LogBlueprintUserMessages: [NeuronComponent] 25.799999
+[2018.11.04-21.17.26:830][700]LogBlueprintUserMessages: [NeuronComponent] 26.0
+[2018.11.04-21.17.26:839][700]LogBlueprintUserMessages: [NeuronComponent] 26.199999
+[2018.11.04-21.17.26:847][700]LogBlueprintUserMessages: [NeuronComponent] 26.4
+[2018.11.04-21.17.26:856][700]LogBlueprintUserMessages: [NeuronComponent] 26.6
+[2018.11.04-21.17.26:864][700]LogBlueprintUserMessages: [NeuronComponent] 26.800001
+[2018.11.04-21.17.26:873][700]LogBlueprintUserMessages: [NeuronComponent] 27.000002
+[2018.11.04-21.17.26:881][700]LogBlueprintUserMessages: [NeuronComponent] 27.200001
+[2018.11.04-21.17.26:890][700]LogBlueprintUserMessages: [NeuronComponent] 27.4
+[2018.11.04-21.17.26:899][700]LogBlueprintUserMessages: [NeuronComponent] 27.599998
+[2018.11.04-21.17.26:907][700]LogBlueprintUserMessages: [NeuronComponent] 27.799999
+[2018.11.04-21.17.26:915][700]LogBlueprintUserMessages: [NeuronComponent] 28.0
+[2018.11.04-21.17.26:924][700]LogBlueprintUserMessages: [NeuronComponent] 28.200001
+[2018.11.04-21.17.26:932][700]LogBlueprintUserMessages: [NeuronComponent] 28.400002
+[2018.11.04-21.17.26:940][700]LogBlueprintUserMessages: [NeuronComponent] 28.600002
+[2018.11.04-21.17.26:949][700]LogBlueprintUserMessages: [NeuronComponent] 28.799999
+[2018.11.04-21.17.26:958][700]LogBlueprintUserMessages: [NeuronComponent] 29.0
+[2018.11.04-21.17.26:966][700]LogBlueprintUserMessages: [NeuronComponent] 29.199999
+[2018.11.04-21.17.26:975][700]LogBlueprintUserMessages: [NeuronComponent] 29.4
+[2018.11.04-21.17.26:984][700]LogBlueprintUserMessages: [NeuronComponent] 29.6
+[2018.11.04-21.17.26:992][700]LogBlueprintUserMessages: [NeuronComponent] 29.800001
+[2018.11.04-21.17.27:000][700]LogBlueprintUserMessages: [NeuronComponent] 30.000002
+[2018.11.04-21.17.27:009][700]LogBlueprintUserMessages: [NeuronComponent] 30.199999
+[2018.11.04-21.17.27:017][700]LogBlueprintUserMessages: [NeuronComponent] 30.4
+[2018.11.04-21.17.27:026][700]LogBlueprintUserMessages: [NeuronComponent] 30.599998
+[2018.11.04-21.17.27:034][700]LogBlueprintUserMessages: [NeuronComponent] 30.799999
+[2018.11.04-21.17.27:042][700]LogBlueprintUserMessages: [NeuronComponent] 31.0
+[2018.11.04-21.17.27:051][700]LogBlueprintUserMessages: [NeuronComponent] 31.200001
+[2018.11.04-21.17.27:059][700]LogBlueprintUserMessages: [NeuronComponent] 31.400002
+[2018.11.04-21.17.27:068][700]LogBlueprintUserMessages: [NeuronComponent] 31.600002
+[2018.11.04-21.17.27:076][700]LogBlueprintUserMessages: [NeuronComponent] 31.799999
+[2018.11.04-21.17.27:085][700]LogBlueprintUserMessages: [NeuronComponent] 32.0
+[2018.11.04-21.17.27:093][700]LogBlueprintUserMessages: [NeuronComponent] 32.200001
+[2018.11.04-21.17.27:102][700]LogBlueprintUserMessages: [NeuronComponent] 32.400002
+[2018.11.04-21.17.27:110][700]LogBlueprintUserMessages: [NeuronComponent] 32.600002
+[2018.11.04-21.17.27:119][700]LogBlueprintUserMessages: [NeuronComponent] 32.799999
+[2018.11.04-21.17.27:127][700]LogBlueprintUserMessages: [NeuronComponent] 33.0
+[2018.11.04-21.17.27:136][700]LogBlueprintUserMessages: [NeuronComponent] 33.199997
+[2018.11.04-21.17.27:149][700]LogBlueprintUserMessages: [NeuronComponent] 33.399998
+[2018.11.04-21.17.27:160][700]LogBlueprintUserMessages: [NeuronComponent] 33.599998
+[2018.11.04-21.17.27:168][700]LogBlueprintUserMessages: [NeuronComponent] 33.799999
+[2018.11.04-21.17.27:177][700]LogBlueprintUserMessages: [NeuronComponent] 34.0
+[2018.11.04-21.17.27:185][700]LogBlueprintUserMessages: [NeuronComponent] 34.200001
+[2018.11.04-21.17.27:197][700]LogBlueprintUserMessages: [NeuronComponent] 34.400002
+[2018.11.04-21.17.27:206][700]LogBlueprintUserMessages: [NeuronComponent] 34.599998
+[2018.11.04-21.17.27:214][700]LogBlueprintUserMessages: [NeuronComponent] 34.799999
+[2018.11.04-21.17.27:223][700]LogBlueprintUserMessages: [NeuronComponent] 35.0
+[2018.11.04-21.17.27:232][700]LogBlueprintUserMessages: [NeuronComponent] 35.200001
+[2018.11.04-21.17.27:240][700]LogBlueprintUserMessages: [NeuronComponent] 35.400002
+[2018.11.04-21.17.27:248][700]LogBlueprintUserMessages: [NeuronComponent] 35.600002
+[2018.11.04-21.17.27:257][700]LogBlueprintUserMessages: [NeuronComponent] 35.799999
+[2018.11.04-21.17.27:265][700]LogBlueprintUserMessages: [NeuronComponent] 36.0
+[2018.11.04-21.17.27:274][700]LogBlueprintUserMessages: [NeuronComponent] 36.199997
+[2018.11.04-21.17.27:282][700]LogBlueprintUserMessages: [NeuronComponent] 36.399998
+[2018.11.04-21.17.27:290][700]LogBlueprintUserMessages: [NeuronComponent] 36.599998
+[2018.11.04-21.17.27:299][700]LogBlueprintUserMessages: [NeuronComponent] 36.799999
+[2018.11.04-21.17.27:307][700]LogBlueprintUserMessages: [NeuronComponent] 37.0
+[2018.11.04-21.17.27:316][700]LogBlueprintUserMessages: [NeuronComponent] 37.200001
+[2018.11.04-21.17.27:324][700]LogBlueprintUserMessages: [NeuronComponent] 37.400002
+[2018.11.04-21.17.27:334][700]LogBlueprintUserMessages: [NeuronComponent] 37.599998
+[2018.11.04-21.17.27:342][700]LogBlueprintUserMessages: [NeuronComponent] 37.799999
+[2018.11.04-21.17.27:351][700]LogBlueprintUserMessages: [NeuronComponent] 38.0
+[2018.11.04-21.17.27:360][700]LogBlueprintUserMessages: [NeuronComponent] 38.200001
+[2018.11.04-21.17.27:373][700]LogBlueprintUserMessages: [NeuronComponent] 38.400002
+[2018.11.04-21.17.27:381][700]LogBlueprintUserMessages: [NeuronComponent] 38.600002
+[2018.11.04-21.17.27:390][700]LogBlueprintUserMessages: [NeuronComponent] 38.800003
+[2018.11.04-21.17.27:405][700]LogBlueprintUserMessages: [NeuronComponent] 39.0
+[2018.11.04-21.17.27:418][700]LogBlueprintUserMessages: [NeuronComponent] 39.200001
+[2018.11.04-21.17.27:427][700]LogBlueprintUserMessages: [NeuronComponent] 39.399998
+[2018.11.04-21.17.27:436][700]LogBlueprintUserMessages: [NeuronComponent] 39.599998
+[2018.11.04-21.17.27:445][700]LogBlueprintUserMessages: [NeuronComponent] 39.799999
+[2018.11.04-21.17.27:454][700]LogBlueprintUserMessages: [NeuronComponent] 40.0
+[2018.11.04-21.17.27:462][700]LogBlueprintUserMessages: [NeuronComponent] 40.200001
+[2018.11.04-21.17.27:471][700]LogBlueprintUserMessages: [NeuronComponent] 40.400002
+[2018.11.04-21.17.27:480][700]LogBlueprintUserMessages: [NeuronComponent] 40.599998
+[2018.11.04-21.17.27:488][700]LogBlueprintUserMessages: [NeuronComponent] 40.799999
+[2018.11.04-21.17.27:496][700]LogBlueprintUserMessages: [NeuronComponent] 41.0
+[2018.11.04-21.17.27:505][700]LogBlueprintUserMessages: [NeuronComponent] 41.200001
+[2018.11.04-21.17.27:514][700]LogBlueprintUserMessages: [NeuronComponent] 41.400002
+[2018.11.04-21.17.27:522][700]LogBlueprintUserMessages: [NeuronComponent] 41.600002
+[2018.11.04-21.17.27:531][700]LogBlueprintUserMessages: [NeuronComponent] 41.800003
+[2018.11.04-21.17.27:539][700]LogBlueprintUserMessages: [NeuronComponent] 42.0
+[2018.11.04-21.17.27:548][700]LogBlueprintUserMessages: [NeuronComponent] 42.200001
+[2018.11.04-21.17.27:556][700]LogBlueprintUserMessages: [NeuronComponent] 42.399998
+[2018.11.04-21.17.27:565][700]LogBlueprintUserMessages: [NeuronComponent] 42.599998
+[2018.11.04-21.17.27:573][700]LogBlueprintUserMessages: [NeuronComponent] 42.799999
+[2018.11.04-21.17.27:581][700]LogBlueprintUserMessages: [NeuronComponent] 43.0
+[2018.11.04-21.17.27:590][700]LogBlueprintUserMessages: [NeuronComponent] 43.200001
+[2018.11.04-21.17.27:598][700]LogBlueprintUserMessages: [NeuronComponent] 43.399998
+[2018.11.04-21.17.27:607][700]LogBlueprintUserMessages: [NeuronComponent] 43.599998
+[2018.11.04-21.17.27:615][700]LogBlueprintUserMessages: [NeuronComponent] 43.799999
+[2018.11.04-21.17.27:624][700]LogBlueprintUserMessages: [NeuronComponent] 44.0
+[2018.11.04-21.17.27:632][700]LogBlueprintUserMessages: [NeuronComponent] 44.200001
+[2018.11.04-21.17.27:641][700]LogBlueprintUserMessages: [NeuronComponent] 44.400002
+[2018.11.04-21.17.27:650][700]LogBlueprintUserMessages: [NeuronComponent] 44.600002
+[2018.11.04-21.17.27:658][700]LogBlueprintUserMessages: [NeuronComponent] 44.800003
+[2018.11.04-21.17.27:666][700]LogBlueprintUserMessages: [NeuronComponent] 45.0
+[2018.11.04-21.17.27:675][700]LogBlueprintUserMessages: [NeuronComponent] 45.200001
+[2018.11.04-21.17.27:683][700]LogBlueprintUserMessages: [NeuronComponent] 45.400002
+[2018.11.04-21.17.27:692][700]LogBlueprintUserMessages: [NeuronComponent] 45.599998
+[2018.11.04-21.17.27:701][700]LogBlueprintUserMessages: [NeuronComponent] 45.799999
+[2018.11.04-21.17.27:710][700]LogBlueprintUserMessages: [NeuronComponent] 46.0
+[2018.11.04-21.17.27:719][700]LogBlueprintUserMessages: [NeuronComponent] 46.200001
+[2018.11.04-21.17.27:727][700]LogBlueprintUserMessages: [NeuronComponent] 46.399998
+[2018.11.04-21.17.27:735][700]LogBlueprintUserMessages: [NeuronComponent] 46.599998
+[2018.11.04-21.17.27:744][700]LogBlueprintUserMessages: [NeuronComponent] 46.799999
+[2018.11.04-21.17.27:753][700]LogBlueprintUserMessages: [NeuronComponent] 47.0
+[2018.11.04-21.17.27:762][700]LogBlueprintUserMessages: [NeuronComponent] 47.200001
+[2018.11.04-21.17.27:770][700]LogBlueprintUserMessages: [NeuronComponent] 47.400002
+[2018.11.04-21.17.27:779][700]LogBlueprintUserMessages: [NeuronComponent] 47.600002
+[2018.11.04-21.17.27:787][700]LogBlueprintUserMessages: [NeuronComponent] 47.799999
+[2018.11.04-21.17.27:795][700]LogBlueprintUserMessages: [NeuronComponent] 48.0
+[2018.11.04-21.17.27:804][700]LogBlueprintUserMessages: [NeuronComponent] 48.200001
+[2018.11.04-21.17.27:812][700]LogBlueprintUserMessages: [NeuronComponent] 48.400002
+[2018.11.04-21.17.27:820][700]LogBlueprintUserMessages: [NeuronComponent] 48.599998
+[2018.11.04-21.17.27:829][700]LogBlueprintUserMessages: [NeuronComponent] 48.799999
+[2018.11.04-21.17.27:837][700]LogBlueprintUserMessages: [NeuronComponent] 49.0
+[2018.11.04-21.17.27:846][700]LogBlueprintUserMessages: [NeuronComponent] 49.200001
+[2018.11.04-21.17.27:855][700]LogBlueprintUserMessages: [NeuronComponent] 49.399998
+[2018.11.04-21.17.27:863][700]LogBlueprintUserMessages: [NeuronComponent] 49.599998
+[2018.11.04-21.17.27:874][700]LogBlueprintUserMessages: [NeuronComponent] 49.799999
+[2018.11.04-21.17.27:882][700]LogBlueprintUserMessages: [NeuronComponent] 50.0
+[2018.11.04-21.17.27:891][700]LogBlueprintUserMessages: [NeuronComponent] 50.199997
+[2018.11.04-21.17.27:899][700]LogBlueprintUserMessages: [NeuronComponent] 50.400002
+[2018.11.04-21.17.27:908][700]LogBlueprintUserMessages: [NeuronComponent] 50.599998
+[2018.11.04-21.17.27:916][700]LogBlueprintUserMessages: [NeuronComponent] 50.800003
+[2018.11.04-21.17.27:925][700]LogBlueprintUserMessages: [NeuronComponent] 51.0
+[2018.11.04-21.17.27:933][700]LogBlueprintUserMessages: [NeuronComponent] 51.200001
+[2018.11.04-21.17.27:942][700]LogBlueprintUserMessages: [NeuronComponent] 51.400002
+[2018.11.04-21.17.27:951][700]LogBlueprintUserMessages: [NeuronComponent] 51.599998
+[2018.11.04-21.17.27:959][700]LogBlueprintUserMessages: [NeuronComponent] 51.799999
+[2018.11.04-21.17.27:968][700]LogBlueprintUserMessages: [NeuronComponent] 52.0
+[2018.11.04-21.17.27:977][700]LogBlueprintUserMessages: [NeuronComponent] 52.200001
+[2018.11.04-21.17.27:985][700]LogBlueprintUserMessages: [NeuronComponent] 52.399998
+[2018.11.04-21.17.27:994][700]LogBlueprintUserMessages: [NeuronComponent] 52.600002
+[2018.11.04-21.17.28:003][700]LogBlueprintUserMessages: [NeuronComponent] 52.799999
+[2018.11.04-21.17.28:011][700]LogBlueprintUserMessages: [NeuronComponent] 52.999996
+[2018.11.04-21.17.28:019][700]LogBlueprintUserMessages: [NeuronComponent] 53.200001
+[2018.11.04-21.17.28:028][700]LogBlueprintUserMessages: [NeuronComponent] 53.399998
+[2018.11.04-21.17.28:037][700]LogBlueprintUserMessages: [NeuronComponent] 53.600002
+[2018.11.04-21.17.28:045][700]LogBlueprintUserMessages: [NeuronComponent] 53.799999
+[2018.11.04-21.17.28:054][700]LogBlueprintUserMessages: [NeuronComponent] 54.000004
+[2018.11.04-21.17.28:061][700]LogBlueprintUserMessages: [NeuronComponent] 54.200001
+[2018.11.04-21.17.28:070][700]LogBlueprintUserMessages: [NeuronComponent] 54.400002
+[2018.11.04-21.17.28:078][700]LogBlueprintUserMessages: [NeuronComponent] 54.599998
+[2018.11.04-21.17.28:087][700]LogBlueprintUserMessages: [NeuronComponent] 54.799999
+[2018.11.04-21.17.28:095][700]LogBlueprintUserMessages: [NeuronComponent] 55.0
+[2018.11.04-21.17.28:104][700]LogBlueprintUserMessages: [NeuronComponent] 55.199997
+[2018.11.04-21.17.28:113][700]LogBlueprintUserMessages: [NeuronComponent] 55.400002
+[2018.11.04-21.17.28:122][700]LogBlueprintUserMessages: [NeuronComponent] 55.599998
+[2018.11.04-21.17.28:132][700]LogBlueprintUserMessages: [NeuronComponent] 55.800003
+[2018.11.04-21.17.28:140][700]LogBlueprintUserMessages: [NeuronComponent] 56.0
+[2018.11.04-21.17.28:149][700]LogBlueprintUserMessages: [NeuronComponent] 56.199997
+[2018.11.04-21.17.28:157][700]LogBlueprintUserMessages: [NeuronComponent] 56.400002
+[2018.11.04-21.17.28:167][700]LogBlueprintUserMessages: [NeuronComponent] 56.599998
+[2018.11.04-21.17.28:177][700]LogBlueprintUserMessages: [NeuronComponent] 56.800003
+[2018.11.04-21.17.28:186][700]LogBlueprintUserMessages: [NeuronComponent] 57.0
+[2018.11.04-21.17.28:196][700]LogBlueprintUserMessages: [NeuronComponent] 57.200005
+[2018.11.04-21.17.28:205][700]LogBlueprintUserMessages: [NeuronComponent] 57.400002
+[2018.11.04-21.17.28:213][700]LogBlueprintUserMessages: [NeuronComponent] 57.599998
+[2018.11.04-21.17.28:222][700]LogBlueprintUserMessages: [NeuronComponent] 57.799999
+[2018.11.04-21.17.28:231][700]LogBlueprintUserMessages: [NeuronComponent] 58.0
+[2018.11.04-21.17.28:239][700]LogBlueprintUserMessages: [NeuronComponent] 58.200001
+[2018.11.04-21.17.28:247][700]LogBlueprintUserMessages: [NeuronComponent] 58.399998
+[2018.11.04-21.17.28:256][700]LogBlueprintUserMessages: [NeuronComponent] 58.600002
+[2018.11.04-21.17.28:264][700]LogBlueprintUserMessages: [NeuronComponent] 58.799999
+[2018.11.04-21.17.28:273][700]LogBlueprintUserMessages: [NeuronComponent] 58.999996
+[2018.11.04-21.17.28:282][700]LogBlueprintUserMessages: [NeuronComponent] 59.200001
+[2018.11.04-21.17.28:290][700]LogBlueprintUserMessages: [NeuronComponent] 59.399998
+[2018.11.04-21.17.28:299][700]LogBlueprintUserMessages: [NeuronComponent] 59.600002
+[2018.11.04-21.17.28:307][700]LogBlueprintUserMessages: [NeuronComponent] 59.799999
+[2018.11.04-21.17.28:316][700]LogBlueprintUserMessages: [NeuronComponent] 60.000004
+[2018.11.04-21.17.28:324][700]LogBlueprintUserMessages: [NeuronComponent] 60.200001
+[2018.11.04-21.17.28:333][700]LogBlueprintUserMessages: [NeuronComponent] 60.399998
+[2018.11.04-21.17.28:341][700]LogBlueprintUserMessages: [NeuronComponent] 60.600002
+[2018.11.04-21.17.28:350][700]LogBlueprintUserMessages: [NeuronComponent] 60.799999
+[2018.11.04-21.17.28:359][700]LogBlueprintUserMessages: [NeuronComponent] 61.0
+[2018.11.04-21.17.28:368][700]LogBlueprintUserMessages: [NeuronComponent] 61.199997
+[2018.11.04-21.17.28:377][700]LogBlueprintUserMessages: [NeuronComponent] 61.400002
+[2018.11.04-21.17.28:385][700]LogBlueprintUserMessages: [NeuronComponent] 61.599998
+[2018.11.04-21.17.28:394][700]LogBlueprintUserMessages: [NeuronComponent] 61.799995
+[2018.11.04-21.17.28:402][700]LogBlueprintUserMessages: [NeuronComponent] 62.0
+[2018.11.04-21.17.28:411][700]LogBlueprintUserMessages: [NeuronComponent] 62.199997
+[2018.11.04-21.17.28:420][700]LogBlueprintUserMessages: [NeuronComponent] 62.400002
+[2018.11.04-21.17.28:429][700]LogBlueprintUserMessages: [NeuronComponent] 62.599998
+[2018.11.04-21.17.28:438][700]LogBlueprintUserMessages: [NeuronComponent] 62.800003
+[2018.11.04-21.17.28:446][700]LogBlueprintUserMessages: [NeuronComponent] 63.0
+[2018.11.04-21.17.28:455][700]LogBlueprintUserMessages: [NeuronComponent] 63.200005
+[2018.11.04-21.17.28:465][700]LogBlueprintUserMessages: [NeuronComponent] 63.400002
+[2018.11.04-21.17.28:474][700]LogBlueprintUserMessages: [NeuronComponent] 63.599998
+[2018.11.04-21.17.28:483][700]LogBlueprintUserMessages: [NeuronComponent] 63.800003
+[2018.11.04-21.17.28:492][700]LogBlueprintUserMessages: [NeuronComponent] 64.0
+[2018.11.04-21.17.28:500][700]LogBlueprintUserMessages: [NeuronComponent] 64.200005
+[2018.11.04-21.17.28:509][700]LogBlueprintUserMessages: [NeuronComponent] 64.400002
+[2018.11.04-21.17.28:519][700]LogBlueprintUserMessages: [NeuronComponent] 64.600006
+[2018.11.04-21.17.28:527][700]LogBlueprintUserMessages: [NeuronComponent] 64.800003
+[2018.11.04-21.17.28:535][700]LogBlueprintUserMessages: [NeuronComponent] 65.0
+[2018.11.04-21.17.28:544][700]LogBlueprintUserMessages: [NeuronComponent] 65.200005
+[2018.11.04-21.17.28:553][700]LogBlueprintUserMessages: [NeuronComponent] 65.400002
+[2018.11.04-21.17.28:562][700]LogBlueprintUserMessages: [NeuronComponent] 65.599998
+[2018.11.04-21.17.28:570][700]LogBlueprintUserMessages: [NeuronComponent] 65.800003
+[2018.11.04-21.17.28:579][700]LogBlueprintUserMessages: [NeuronComponent] 66.0
+[2018.11.04-21.17.28:587][700]LogBlueprintUserMessages: [NeuronComponent] 66.199997
+[2018.11.04-21.17.28:596][700]LogBlueprintUserMessages: [NeuronComponent] 66.399994
+[2018.11.04-21.17.28:605][700]LogBlueprintUserMessages: [NeuronComponent] 66.599998
+[2018.11.04-21.17.28:614][700]LogBlueprintUserMessages: [NeuronComponent] 66.799995
+[2018.11.04-21.17.28:622][700]LogBlueprintUserMessages: [NeuronComponent] 67.0
+[2018.11.04-21.17.28:631][700]LogBlueprintUserMessages: [NeuronComponent] 67.199997
+[2018.11.04-21.17.28:640][700]LogBlueprintUserMessages: [NeuronComponent] 67.400002
+[2018.11.04-21.17.28:648][700]LogBlueprintUserMessages: [NeuronComponent] 67.599998
+[2018.11.04-21.17.28:657][700]LogBlueprintUserMessages: [NeuronComponent] 67.799995
+[2018.11.04-21.17.28:667][700]LogBlueprintUserMessages: [NeuronComponent] 68.0
+[2018.11.04-21.17.28:675][700]LogBlueprintUserMessages: [NeuronComponent] 68.199997
+[2018.11.04-21.17.28:685][700]LogBlueprintUserMessages: [NeuronComponent] 68.400002
+[2018.11.04-21.17.28:694][700]LogBlueprintUserMessages: [NeuronComponent] 68.599998
+[2018.11.04-21.17.28:702][700]LogBlueprintUserMessages: [NeuronComponent] 68.800003
+[2018.11.04-21.17.28:711][700]LogBlueprintUserMessages: [NeuronComponent] 69.0
+[2018.11.04-21.17.28:719][700]LogBlueprintUserMessages: [NeuronComponent] 69.199997
+[2018.11.04-21.17.28:728][700]LogBlueprintUserMessages: [NeuronComponent] 69.400002
+[2018.11.04-21.17.28:736][700]LogBlueprintUserMessages: [NeuronComponent] 69.599998
+[2018.11.04-21.17.28:745][700]LogBlueprintUserMessages: [NeuronComponent] 69.800003
+[2018.11.04-21.17.28:753][700]LogBlueprintUserMessages: [NeuronComponent] 70.0
+[2018.11.04-21.17.28:762][700]LogBlueprintUserMessages: [NeuronComponent] 70.200005
+[2018.11.04-21.17.28:771][700]LogBlueprintUserMessages: [NeuronComponent] 70.400002
+[2018.11.04-21.17.28:780][700]LogBlueprintUserMessages: [NeuronComponent] 70.599998
+[2018.11.04-21.17.28:789][700]LogBlueprintUserMessages: [NeuronComponent] 70.800003
+[2018.11.04-21.17.28:797][700]LogBlueprintUserMessages: [NeuronComponent] 71.0
+[2018.11.04-21.17.28:806][700]LogBlueprintUserMessages: [NeuronComponent] 71.200005
+[2018.11.04-21.17.28:815][700]LogBlueprintUserMessages: [NeuronComponent] 71.400002
+[2018.11.04-21.17.28:823][700]LogBlueprintUserMessages: [NeuronComponent] 71.599998
+[2018.11.04-21.17.28:832][700]LogBlueprintUserMessages: [NeuronComponent] 71.800003
+[2018.11.04-21.17.28:840][700]LogBlueprintUserMessages: [NeuronComponent] 72.0
+[2018.11.04-21.17.28:850][700]LogBlueprintUserMessages: [NeuronComponent] 72.199997
+[2018.11.04-21.17.28:858][700]LogBlueprintUserMessages: [NeuronComponent] 72.399994
+[2018.11.04-21.17.28:867][700]LogBlueprintUserMessages: [NeuronComponent] 72.599998
+[2018.11.04-21.17.28:875][700]LogBlueprintUserMessages: [NeuronComponent] 72.799995
+[2018.11.04-21.17.28:885][700]LogBlueprintUserMessages: [NeuronComponent] 73.0
+[2018.11.04-21.17.28:893][700]LogBlueprintUserMessages: [NeuronComponent] 73.199997
+[2018.11.04-21.17.28:902][700]LogBlueprintUserMessages: [NeuronComponent] 73.400002
+[2018.11.04-21.17.28:910][700]LogBlueprintUserMessages: [NeuronComponent] 73.599998
+[2018.11.04-21.17.28:919][700]LogBlueprintUserMessages: [NeuronComponent] 73.799995
+[2018.11.04-21.17.28:927][700]LogBlueprintUserMessages: [NeuronComponent] 74.0
+[2018.11.04-21.17.28:936][700]LogBlueprintUserMessages: [NeuronComponent] 74.199997
+[2018.11.04-21.17.28:944][700]LogBlueprintUserMessages: [NeuronComponent] 74.400002
+[2018.11.04-21.17.28:953][700]LogBlueprintUserMessages: [NeuronComponent] 74.599998
+[2018.11.04-21.17.28:961][700]LogBlueprintUserMessages: [NeuronComponent] 74.800003
+[2018.11.04-21.17.28:969][700]LogBlueprintUserMessages: [NeuronComponent] 75.0
+[2018.11.04-21.17.28:978][700]LogBlueprintUserMessages: [NeuronComponent] 75.199997
+[2018.11.04-21.17.28:987][700]LogBlueprintUserMessages: [NeuronComponent] 75.400002
+[2018.11.04-21.17.28:996][700]LogBlueprintUserMessages: [NeuronComponent] 75.599998
+[2018.11.04-21.17.29:004][700]LogBlueprintUserMessages: [NeuronComponent] 75.800003
+[2018.11.04-21.17.29:013][700]LogBlueprintUserMessages: [NeuronComponent] 76.0
+[2018.11.04-21.17.29:021][700]LogBlueprintUserMessages: [NeuronComponent] 76.200005
+[2018.11.04-21.17.29:030][700]LogBlueprintUserMessages: [NeuronComponent] 76.400002
+[2018.11.04-21.17.29:038][700]LogBlueprintUserMessages: [NeuronComponent] 76.599998
+[2018.11.04-21.17.29:046][700]LogBlueprintUserMessages: [NeuronComponent] 76.800003
+[2018.11.04-21.17.29:055][700]LogBlueprintUserMessages: [NeuronComponent] 77.0
+[2018.11.04-21.17.29:063][700]LogBlueprintUserMessages: [NeuronComponent] 77.200005
+[2018.11.04-21.17.29:072][700]LogBlueprintUserMessages: [NeuronComponent] 77.400002
+[2018.11.04-21.17.29:080][700]LogBlueprintUserMessages: [NeuronComponent] 77.600006
+[2018.11.04-21.17.29:089][700]LogBlueprintUserMessages: [NeuronComponent] 77.800003
+[2018.11.04-21.17.29:097][700]LogBlueprintUserMessages: [NeuronComponent] 78.0
+[2018.11.04-21.17.29:106][700]LogBlueprintUserMessages: [NeuronComponent] 78.199997
+[2018.11.04-21.17.29:114][700]LogBlueprintUserMessages: [NeuronComponent] 78.400002
+[2018.11.04-21.17.29:124][700]LogBlueprintUserMessages: [NeuronComponent] 78.599998
+[2018.11.04-21.17.29:134][700]LogBlueprintUserMessages: [NeuronComponent] 78.799995
+[2018.11.04-21.17.29:143][700]LogBlueprintUserMessages: [NeuronComponent] 79.0
+[2018.11.04-21.17.29:152][700]LogBlueprintUserMessages: [NeuronComponent] 79.199997
+[2018.11.04-21.17.29:161][700]LogBlueprintUserMessages: [NeuronComponent] 79.400002
+[2018.11.04-21.17.29:169][700]LogBlueprintUserMessages: [NeuronComponent] 79.599998
+[2018.11.04-21.17.29:178][700]LogBlueprintUserMessages: [NeuronComponent] 79.799995
+[2018.11.04-21.17.29:186][700]LogBlueprintUserMessages: [NeuronComponent] 80.0
+[2018.11.04-21.17.29:195][700]LogBlueprintUserMessages: [NeuronComponent] 80.199997
+[2018.11.04-21.17.29:205][700]LogBlueprintUserMessages: [NeuronComponent] 80.400002
+[2018.11.04-21.17.29:214][700]LogBlueprintUserMessages: [NeuronComponent] 80.599998
+[2018.11.04-21.17.29:223][700]LogBlueprintUserMessages: [NeuronComponent] 80.800003
+[2018.11.04-21.17.29:232][700]LogBlueprintUserMessages: [NeuronComponent] 81.0
+[2018.11.04-21.17.29:241][700]LogBlueprintUserMessages: [NeuronComponent] 81.199997
+[2018.11.04-21.17.29:250][700]LogBlueprintUserMessages: [NeuronComponent] 81.400002
+[2018.11.04-21.17.29:259][700]LogBlueprintUserMessages: [NeuronComponent] 81.599998
+[2018.11.04-21.17.29:267][700]LogBlueprintUserMessages: [NeuronComponent] 81.800003
+[2018.11.04-21.17.29:276][700]LogBlueprintUserMessages: [NeuronComponent] 82.0
+[2018.11.04-21.17.29:284][700]LogBlueprintUserMessages: [NeuronComponent] 82.200005
+[2018.11.04-21.17.29:292][700]LogBlueprintUserMessages: [NeuronComponent] 82.400002
+[2018.11.04-21.17.29:301][700]LogBlueprintUserMessages: [NeuronComponent] 82.599998
+[2018.11.04-21.17.29:309][700]LogBlueprintUserMessages: [NeuronComponent] 82.800003
+[2018.11.04-21.17.29:318][700]LogBlueprintUserMessages: [NeuronComponent] 83.0
+[2018.11.04-21.17.29:326][700]LogBlueprintUserMessages: [NeuronComponent] 83.200005
+[2018.11.04-21.17.29:335][700]LogBlueprintUserMessages: [NeuronComponent] 83.400002
+[2018.11.04-21.17.29:344][700]LogBlueprintUserMessages: [NeuronComponent] 83.600006
+[2018.11.04-21.17.29:352][700]LogBlueprintUserMessages: [NeuronComponent] 83.800003
+[2018.11.04-21.17.29:363][700]LogBlueprintUserMessages: [NeuronComponent] 84.0
+[2018.11.04-21.17.29:374][700]LogBlueprintUserMessages: [NeuronComponent] 84.199997
+[2018.11.04-21.17.29:386][700]LogBlueprintUserMessages: [NeuronComponent] 84.400002
+[2018.11.04-21.17.29:395][700]LogBlueprintUserMessages: [NeuronComponent] 84.599998
+[2018.11.04-21.17.29:403][700]LogBlueprintUserMessages: [NeuronComponent] 84.799995
+[2018.11.04-21.17.29:411][700]LogBlueprintUserMessages: [NeuronComponent] 85.0
+[2018.11.04-21.17.29:420][700]LogBlueprintUserMessages: [NeuronComponent] 85.199997
+[2018.11.04-21.17.29:428][700]LogBlueprintUserMessages: [NeuronComponent] 85.399994
+[2018.11.04-21.17.29:437][700]LogBlueprintUserMessages: [NeuronComponent] 85.599998
+[2018.11.04-21.17.29:446][700]LogBlueprintUserMessages: [NeuronComponent] 85.799995
+[2018.11.04-21.17.29:454][700]LogBlueprintUserMessages: [NeuronComponent] 86.0
+[2018.11.04-21.17.29:463][700]LogBlueprintUserMessages: [NeuronComponent] 86.199997
+[2018.11.04-21.17.29:471][700]LogBlueprintUserMessages: [NeuronComponent] 86.400002
+[2018.11.04-21.17.29:480][700]LogBlueprintUserMessages: [NeuronComponent] 86.599998
+[2018.11.04-21.17.29:488][700]LogBlueprintUserMessages: [NeuronComponent] 86.799995
+[2018.11.04-21.17.29:497][700]LogBlueprintUserMessages: [NeuronComponent] 87.0
+[2018.11.04-21.17.29:505][700]LogBlueprintUserMessages: [NeuronComponent] 87.199997
+[2018.11.04-21.17.29:514][700]LogBlueprintUserMessages: [NeuronComponent] 87.400002
+[2018.11.04-21.17.29:523][700]LogBlueprintUserMessages: [NeuronComponent] 87.599998
+[2018.11.04-21.17.29:532][700]LogBlueprintUserMessages: [NeuronComponent] 87.800003
+[2018.11.04-21.17.29:540][700]LogBlueprintUserMessages: [NeuronComponent] 88.0
+[2018.11.04-21.17.29:549][700]LogBlueprintUserMessages: [NeuronComponent] 88.200005
+[2018.11.04-21.17.29:557][700]LogBlueprintUserMessages: [NeuronComponent] 88.400002
+[2018.11.04-21.17.29:565][700]LogBlueprintUserMessages: [NeuronComponent] 88.599998
+[2018.11.04-21.17.29:574][700]LogBlueprintUserMessages: [NeuronComponent] 88.800003
+[2018.11.04-21.17.29:583][700]LogBlueprintUserMessages: [NeuronComponent] 89.0
+[2018.11.04-21.17.29:591][700]LogBlueprintUserMessages: [NeuronComponent] 89.200005
+[2018.11.04-21.17.29:600][700]LogBlueprintUserMessages: [NeuronComponent] 89.400002
+[2018.11.04-21.17.29:608][700]LogBlueprintUserMessages: [NeuronComponent] 89.600006
+[2018.11.04-21.17.29:617][700]LogBlueprintUserMessages: [NeuronComponent] 89.800003
+[2018.11.04-21.17.29:627][700]LogBlueprintUserMessages: [NeuronComponent] 90.0
+[2018.11.04-21.17.29:639][700]LogBlueprintUserMessages: [NeuronComponent] 90.200005
+[2018.11.04-21.17.29:648][700]LogBlueprintUserMessages: [NeuronComponent] 90.400002
+[2018.11.04-21.17.29:657][700]LogBlueprintUserMessages: [NeuronComponent] 90.599998
+[2018.11.04-21.17.29:666][700]LogBlueprintUserMessages: [NeuronComponent] 90.800003
+[2018.11.04-21.17.29:674][700]LogBlueprintUserMessages: [NeuronComponent] 91.0
+[2018.11.04-21.17.29:682][700]LogBlueprintUserMessages: [NeuronComponent] 91.199997
+[2018.11.04-21.17.29:692][700]LogBlueprintUserMessages: [NeuronComponent] 91.399994
+[2018.11.04-21.17.29:701][700]LogBlueprintUserMessages: [NeuronComponent] 91.599998
+[2018.11.04-21.17.29:709][700]LogBlueprintUserMessages: [NeuronComponent] 91.799995
+[2018.11.04-21.17.29:718][700]LogBlueprintUserMessages: [NeuronComponent] 92.0
+[2018.11.04-21.17.29:727][700]LogBlueprintUserMessages: [NeuronComponent] 92.199997
+[2018.11.04-21.17.29:736][700]LogBlueprintUserMessages: [NeuronComponent] 92.400002
+[2018.11.04-21.17.29:744][700]LogBlueprintUserMessages: [NeuronComponent] 92.599998
+[2018.11.04-21.17.29:753][700]LogBlueprintUserMessages: [NeuronComponent] 92.799995
+[2018.11.04-21.17.29:760][700]LogBlueprintUserMessages: [NeuronComponent] 93.0
+[2018.11.04-21.17.29:769][700]LogBlueprintUserMessages: [NeuronComponent] 93.199997
+[2018.11.04-21.17.29:777][700]LogBlueprintUserMessages: [NeuronComponent] 93.400002
+[2018.11.04-21.17.29:786][700]LogBlueprintUserMessages: [NeuronComponent] 93.599998
+[2018.11.04-21.17.29:794][700]LogBlueprintUserMessages: [NeuronComponent] 93.800003
+[2018.11.04-21.17.29:803][700]LogBlueprintUserMessages: [NeuronComponent] 94.0
+[2018.11.04-21.17.29:811][700]LogBlueprintUserMessages: [NeuronComponent] 94.199997
+[2018.11.04-21.17.29:820][700]LogBlueprintUserMessages: [NeuronComponent] 94.400002
+[2018.11.04-21.17.29:829][700]LogBlueprintUserMessages: [NeuronComponent] 94.599998
+[2018.11.04-21.17.29:838][700]LogBlueprintUserMessages: [NeuronComponent] 94.800003
+[2018.11.04-21.17.29:846][700]LogBlueprintUserMessages: [NeuronComponent] 95.0
+[2018.11.04-21.17.29:855][700]LogBlueprintUserMessages: [NeuronComponent] 95.200005
+[2018.11.04-21.17.29:864][700]LogBlueprintUserMessages: [NeuronComponent] 95.400002
+[2018.11.04-21.17.29:873][700]LogBlueprintUserMessages: [NeuronComponent] 95.599998
+[2018.11.04-21.17.29:881][700]LogBlueprintUserMessages: [NeuronComponent] 95.800003
+[2018.11.04-21.17.29:890][700]LogBlueprintUserMessages: [NeuronComponent] 96.0
+[2018.11.04-21.17.29:900][700]LogBlueprintUserMessages: [NeuronComponent] 96.200005
+[2018.11.04-21.17.29:908][700]LogBlueprintUserMessages: [NeuronComponent] 96.400002
+[2018.11.04-21.17.29:917][700]LogBlueprintUserMessages: [NeuronComponent] 96.599998
+[2018.11.04-21.17.29:925][700]LogBlueprintUserMessages: [NeuronComponent] 96.800003
+[2018.11.04-21.17.29:934][700]LogBlueprintUserMessages: [NeuronComponent] 97.0
+[2018.11.04-21.17.29:943][700]LogBlueprintUserMessages: [NeuronComponent] 97.199997
+[2018.11.04-21.17.29:952][700]LogBlueprintUserMessages: [NeuronComponent] 97.399994
+[2018.11.04-21.17.29:960][700]LogBlueprintUserMessages: [NeuronComponent] 97.599998
+[2018.11.04-21.17.29:969][700]LogBlueprintUserMessages: [NeuronComponent] 97.799995
+[2018.11.04-21.17.29:977][700]LogBlueprintUserMessages: [NeuronComponent] 98.0
+[2018.11.04-21.17.29:986][700]LogBlueprintUserMessages: [NeuronComponent] 98.199997
+[2018.11.04-21.17.29:996][700]LogBlueprintUserMessages: [NeuronComponent] 98.400002
+[2018.11.04-21.17.30:005][700]LogBlueprintUserMessages: [NeuronComponent] 98.599998
+[2018.11.04-21.17.30:013][700]LogBlueprintUserMessages: [NeuronComponent] 98.799995
+[2018.11.04-21.17.30:022][700]LogBlueprintUserMessages: [NeuronComponent] 99.0
+[2018.11.04-21.17.30:030][700]LogBlueprintUserMessages: [NeuronComponent] 99.199997
+[2018.11.04-21.17.30:039][700]LogBlueprintUserMessages: [NeuronComponent] 99.400002
+[2018.11.04-21.17.30:047][700]LogBlueprintUserMessages: [NeuronComponent] 99.599998
+[2018.11.04-21.17.30:056][700]LogBlueprintUserMessages: [NeuronComponent] 99.800003
+[2018.11.04-21.17.30:064][700]LogBlueprintUserMessages: [NeuronComponent] 100.0
+[2018.11.04-21.17.35:569][893]BlueprintLog: New page: Compile NeuralComponent
+[2018.11.04-21.17.47:010][220]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-21.17.47:065][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuralComponent/NeuralComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuralComponent.uasset" SILENT=true
+[2018.11.04-21.17.48:042][220]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuralComponentE8C3A17D45D462BBE7AF08AB4FCEED1E.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuralComponent/NeuralComponent.uasset'
+[2018.11.04-21.17.48:427][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.04-21.17.49:168][220]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap01A3140844D445325B6E26A4B377EEA4.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.11.04-21.17.49:264][220]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.199
+[2018.11.04-21.19.03:403][280]LogSlate: Window 'Pick Structure' being destroyed
+[2018.11.04-21.19.04:565][335]LogAssetEditorManager: Opening Asset editor for DataTable /Game/NeuralComponent/NewDataTable.NewDataTable
+[2018.11.04-21.19.28:327][338]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.19.47:137][974]LogAssetEditorManager: Opening Asset editor for LightPropagationVolumeBlendable /Game/NeuralComponent/NewLightPropagationVolumeBlendable.NewLightPropagationVolumeBlendable
+[2018.11.04-21.19.52:887][162]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.20.11:568][830]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.11.04-21.20.15:253][830]LogSlate: Window 'Choose Skeleton' being destroyed
+[2018.11.04-21.20.16:486][879]LogAssetEditorManager: Opening Asset editor for PreviewMeshCollection /Game/NeuralComponent/NewPreviewMeshCollection.NewPreviewMeshCollection
+[2018.11.04-21.20.23:913][152]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.20.37:046][534]LogAssetEditorManager: Opening Asset editor for StringTable /Game/NeuralComponent/NewStringTable.NewStringTable
+[2018.11.04-21.23.03:849][168]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.23.03:849][168]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.23.23:080][979]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.23.43:121][526]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.04-21.23.45:800][613]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/NewBlueprint.NewBlueprint
+[2018.11.04-21.23.50:541][724]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.23.50:541][724]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.24.00:482][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.24.38:286][131]BlueprintLog: New page: Compile NewBlueprint
+[2018.11.04-21.24.48:247][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.24.50:274][470]BlueprintLog: New page: Compile NewBlueprint
+[2018.11.04-21.25.20:701][603]BlueprintLog: New page: Compile NewBlueprint
+[2018.11.04-21.25.38:459][251]BlueprintLog: New page: Compile NewBlueprint
+[2018.11.04-21.26.10:782][439]BlueprintLog: New page: Compile NewBlueprint
+[2018.11.04-21.26.18:569][689]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2018.11.04-21.26.20:119][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.26.35:856][494]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-21.26.38:947][566]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.26.40:454][637]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2018.11.04-21.26.41:110][669]Cmd: DELETE
+[2018.11.04-21.26.41:110][669]Cmd: ACTOR DELETE
+[2018.11.04-21.26.41:327][669]LogEditorActor: Deleted Actor: NewBlueprint_C
+[2018.11.04-21.26.41:406][669]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2018.11.04-21.26.41:783][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.26.43:716][708]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.04-21.26.43:891][708]LogSlate: Window 'NewBlueprint*' being destroyed
+[2018.11.04-21.26.50:435][884]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-21.26.50:870][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.04-21.26.51:638][884]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMapC94A8BAC4507C4CAC974B2B512301F23.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.11.04-21.26.51:755][884]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.264
+[2018.11.04-21.39.32:063][325]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.39.32:064][325]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.39.33:246][376]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.39.33:316][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.39.33:319][376]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.04-21.39.33:404][376]LogPlayLevel: [PlayLevel] Compiling Sedan before play...
+[2018.11.04-21.39.33:943][376]LogPlayLevel: PlayLevel: Blueprint regeneration took 624 ms (1 blueprints)
+[2018.11.04-21.39.33:944][376]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:39:33)
+[2018.11.04-21.39.33:945][376]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.39.33:995][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049122s)
+[2018.11.04-21.39.33:999][376]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.39.34:000][376]LogPlayLevel: PIE: World Init took: (0.004338s)
+[2018.11.04-21.39.34:000][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.055363s)
+[2018.11.04-21.39.34:102][376]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.39.34:140][376]LogInit: FAudioDevice initialized.
+[2018.11.04-21.39.34:179][376]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.39.34:202][376]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.39.34
+[2018.11.04-21.39.34:203][376]LogWorld: Bringing up level for play took: 0.012146
+[2018.11.04-21.39.34:219][376]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0,869
+[2018.11.04-21.39.34:220][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.05:334][814]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.05:337][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.41.05:391][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.41.05:392][814]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.05:460][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.41.05:525][815]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.04-21.41.14:557][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.41.30:678][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.41.30:778][776]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.41.30:828][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.30:830][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-21.41.30:831][776]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:41:30)
+[2018.11.04-21.41.30:831][776]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.41.30:884][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052170s)
+[2018.11.04-21.41.30:887][776]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.41.30:888][776]LogPlayLevel: PIE: World Init took: (0.003253s)
+[2018.11.04-21.41.30:889][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.057199s)
+[2018.11.04-21.41.30:979][776]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.41.31:013][776]LogInit: FAudioDevice initialized.
+[2018.11.04-21.41.31:052][776]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.41.31:073][776]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.41.31
+[2018.11.04-21.41.31:075][776]LogWorld: Bringing up level for play took: 0.010902
+[2018.11.04-21.41.31:091][776]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0,259
+[2018.11.04-21.41.31:092][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.53:625][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.53:627][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.41.53:677][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.41.53:678][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.53:739][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.41.53:794][118]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.04-21.41.54:842][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.41.54:925][185]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.41.54:976][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.41.54:978][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-21.41.54:978][185]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:41:54)
+[2018.11.04-21.41.54:979][185]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.41.55:018][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038946s)
+[2018.11.04-21.41.55:020][185]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.41.55:022][185]LogPlayLevel: PIE: World Init took: (0.002869s)
+[2018.11.04-21.41.55:022][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.043518s)
+[2018.11.04-21.41.55:121][185]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.41.55:155][185]LogInit: FAudioDevice initialized.
+[2018.11.04-21.41.55:199][185]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.41.55:221][185]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.41.55
+[2018.11.04-21.41.55:222][185]LogWorld: Bringing up level for play took: 0.010758
+[2018.11.04-21.41.55:238][185]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0,113
+[2018.11.04-21.41.55:239][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.06:952][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.06:955][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.42.07:001][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.42.07:002][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.07:072][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.42.07:129][883]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.04-21.42.07:744][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-21.42.07:827][922]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.42.07:905][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.07:907][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-21.42.07:907][922]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:42:07)
+[2018.11.04-21.42.07:908][922]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.42.07:951][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042454s)
+[2018.11.04-21.42.07:953][922]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.42.07:954][922]LogPlayLevel: PIE: World Init took: (0.002749s)
+[2018.11.04-21.42.07:955][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.046757s)
+[2018.11.04-21.42.08:056][922]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.42.08:090][922]LogInit: FAudioDevice initialized.
+[2018.11.04-21.42.08:129][922]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.42.08:150][922]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.42.08
+[2018.11.04-21.42.08:152][922]LogWorld: Bringing up level for play took: 0.010675
+[2018.11.04-21.42.08:168][922]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0,818
+[2018.11.04-21.42.08:169][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.52:803][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.52:805][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.42.52:854][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.42.52:855][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.52:932][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.42.52:991][588]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.04-21.42.54:461][604]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.04-21.42.58:487][731]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-21.42.58:539][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.42.58:541][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-21.42.58:541][731]PIE: New page: PIE session: VehicleExampleMap (5 нояб. 2018 г., 3:42:58)
+[2018.11.04-21.42.58:542][731]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.11.04-21.42.58:589][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046300s)
+[2018.11.04-21.42.58:591][731]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-21.42.58:593][731]LogPlayLevel: PIE: World Init took: (0.003150s)
+[2018.11.04-21.42.58:593][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.051166s)
+[2018.11.04-21.42.58:698][731]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-21.42.58:732][731]LogInit: FAudioDevice initialized.
+[2018.11.04-21.42.58:776][731]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.04-21.42.58:796][731]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2018.11.05-00.42.58
+[2018.11.04-21.42.58:798][731]LogWorld: Bringing up level for play took: 0.010955
+[2018.11.04-21.42.58:815][731]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0,536
+[2018.11.04-21.42.58:816][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.44.27:145][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.44.27:148][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.44.27:199][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.04-21.44.27:200][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.11.04-21.44.27:268][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-21.44.27:326][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.04-21.44.28:621][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.04-21.44.30:585][ 63]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-21.44.31:015][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.04-21.44.31:781][ 63]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap7FFF5CFB40BE82FCE6A8EAB2B2BEE4C8.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.11.04-21.44.31:874][ 63]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.237
+[2018.11.04-21.44.32:161][ 63]LogSlate: Window 'NeuralCar - Unreal Editor' being destroyed
+[2018.11.04-21.44.32:166][ 63]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-21.44.32:491][ 64]Cmd: QUIT_EDITOR
+[2018.11.04-21.44.33:172][ 64]LogExit: Preparing to exit.
+[2018.11.04-21.44.33:995][ 64]LogExit: Editor shut down
+[2018.11.04-21.44.33:996][ 64]LogExit: Transaction tracking system shut down
+[2018.11.04-21.44.34:877][ 64]LogExit: Object subsystem successfully closed.
+[2018.11.04-21.44.34:913][ 64]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.04-21.44.34:920][ 64]LogD3D11RHI: Shutdown
+[2018.11.04-21.44.34:920][ 64]LogD3D11RHI: CleanupD3DDevice
+[2018.11.04-21.44.34:924][ 64]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.04-21.44.35:032][ 64]LogModuleManager: Shutting down and abandoning module DataTableEditor (620)
+[2018.11.04-21.44.35:032][ 64]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2018.11.04-21.44.35:032][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2018.11.04-21.44.35:032][ 64]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2018.11.04-21.44.35:033][ 64]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.11.04-21.44.35:033][ 64]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.11.04-21.44.35:033][ 64]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.11.04-21.44.35:034][ 64]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.11.04-21.44.35:035][ 64]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.11.04-21.44.35:036][ 64]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.11.04-21.44.35:037][ 64]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.11.04-21.44.35:038][ 64]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.11.04-21.44.36:411][ 64]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.11.04-21.44.36:411][ 64]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.11.04-21.44.36:411][ 64]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.11.04-21.44.36:411][ 64]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.11.04-21.44.36:411][ 64]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.11.04-21.44.36:412][ 64]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.11.04-21.44.36:413][ 64]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.11.04-21.44.36:549][ 64]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.11.04-21.44.36:549][ 64]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.11.04-21.44.36:549][ 64]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.11.04-21.44.36:549][ 64]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.11.04-21.44.36:549][ 64]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.11.04-21.44.36:550][ 64]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.11.04-21.44.36:551][ 64]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.11.04-21.44.36:551][ 64]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.11.04-21.44.36:551][ 64]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.11.04-21.44.36:551][ 64]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.11.04-21.44.36:569][ 64]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.11.04-21.44.36:569][ 64]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2018.11.04-21.44.36:574][ 64]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2018.11.04-21.44.36:575][ 64]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2018.11.04-21.44.36:576][ 64]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2018.11.04-21.44.36:576][ 64]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2018.11.04-21.44.36:576][ 64]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2018.11.04-21.44.36:576][ 64]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2018.11.04-21.44.36:576][ 64]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.11.04-21.44.36:790][ 64]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.11.04-21.44.36:790][ 64]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.04-21.44.36:790][ 64]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.04-21.44.36:790][ 64]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.04-21.44.36:790][ 64]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.04-21.44.36:791][ 64]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.04-21.44.36:801][ 64]LogModuleManager: Shutting down and abandoning module RawInput (364)
+[2018.11.04-21.44.36:801][ 64]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.04-21.44.36:801][ 64]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.04-21.44.36:801][ 64]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.04-21.44.36:801][ 64]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.04-21.44.36:802][ 64]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.04-21.44.36:803][ 64]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.04-21.44.36:804][ 64]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.04-21.44.36:805][ 64]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.04-21.44.36:907][ 64]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.04-21.44.37:008][ 64]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.04-21.44.37:010][ 64]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.04-21.44.37:010][ 64]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.04-21.44.37:010][ 64]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.04-21.44.37:011][ 64]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.04-21.44.37:012][ 64]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.04-21.44.37:014][ 64]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.04-21.44.37:014][ 64]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.04-21.44.37:014][ 64]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.04-21.44.37:014][ 64]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.04-21.44.37:014][ 64]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.04-21.44.37:015][ 64]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.04-21.44.37:019][ 64]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.04-21.44.37:026][ 64]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.04-21.44.37:027][ 64]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.04-21.44.37:028][ 64]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.04-21.44.37:028][ 64]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.04-21.44.37:032][ 64]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.04-21.44.37:033][ 64]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.04-21.44.37:068][ 64]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.04-21.44.37:145][ 64]LogDerivedDataCache: Shutdown
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.04-21.44.37:146][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.04-21.44.37:147][ 64]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.04-21.44.37:148][ 64]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.04-21.44.37:148][ 64]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.04-21.44.37:150][ 64]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.04-21.44.37:150][ 64]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.04-21.44.37:152][ 64]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.04-21.44.37:152][ 64]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.04-21.44.37:166][ 64]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.04-21.44.37:166][ 64]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.04-21.44.37:167][ 64]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.04-21.44.37:168][ 64]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.04-21.44.37:168][ 64]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.04-21.44.37:169][ 64]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.04-21.44.37:170][ 64]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.04-21.44.37:207][ 64]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.04-21.44.37:207][ 64]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.04-21.44.37:207][ 64]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD12E4854-40FD-7A9E-CC49-1CBDC0E00D8A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=35620709454a3e3383495384635ed2b7%7C7f3f167daf384797b56d38b99b8bd9f3%7Cd0e267ef-539b-486b-9633-9f4185318833&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.04-21.44.37:224][ 64]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.04-21.44.37:227][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.04-21.44.37:228][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.04-21.44.37:228][ 64]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.04-21.44.37:228][ 64]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.04-21.44.37:228][ 64]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.04-21.44.37:228][ 64]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.04-21.44.37:228][ 64]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.04-21.44.37:229][ 64]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.04-21.44.37:229][ 64]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.04-21.44.37:229][ 64]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.04-21.44.37:229][ 64]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.04-21.44.37:229][ 64]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.04-21.44.37:231][ 64]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.04-21.44.37:231][ 64]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.04-21.44.37:232][ 64]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.04-21.44.37:248][ 64]LogExit: Exiting.
+[2018.11.04-21.44.37:297][ 64]Log file closed, 11/05/18 00:44:37

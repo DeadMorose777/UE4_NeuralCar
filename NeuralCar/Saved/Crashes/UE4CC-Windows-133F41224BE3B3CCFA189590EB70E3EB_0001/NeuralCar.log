@@ -1,0 +1,767 @@
+﻿Log file open, 11/04/18 14:48:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NeuralCar
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.538122
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.287s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz, GPU: NVIDIA GeForce GTX 670MX
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.04-11.48.46:655][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-11.48.46:655][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.04-11.48.46:691][  0]LogHAL: Display: Platform has ~ 16 GB [17130799104 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.04-11.48.46:692][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.04-11.48.46:692][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.04-11.48.46:693][  0]LogInit: Computer: DESKTOP-0ACU3I4
+[2018.11.04-11.48.46:693][  0]LogInit: User: Admin
+[2018.11.04-11.48.46:693][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.04-11.48.46:693][  0]LogInit: High frequency timer resolution =2.338434 MHz
+[2018.11.04-11.48.46:694][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.04-11.48.46:694][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-11.48.46:694][  0]LogMemory: Process Physical Memory: 99.96 MB used, 99.96 MB peak
+[2018.11.04-11.48.46:694][  0]LogMemory: Process Virtual Memory: 90.98 MB used, 90.98 MB peak
+[2018.11.04-11.48.46:694][  0]LogMemory: Physical Memory: 6204.97 MB used,  10132.23 MB free, 16337.20 MB total
+[2018.11.04-11.48.46:694][  0]LogMemory: Virtual Memory: 4640.12 MB used,  10132.23 MB free, 134217728.00 MB total
+[2018.11.04-11.48.46:780][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.04-11.48.46:780][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.04-11.48.46:784][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.11.04-11.48.46:792][  0]LogStreaming: Display: Took  0.012s to InitEngineTextLocalization.
+[2018.11.04-11.48.46:793][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.04-11.48.46:905][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.04-11.48.46:905][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.04-11.48.47:690][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-11.48.47:690][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.04-11.48.47:914][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670MX' (Feature Level 11_0)
+[2018.11.04-11.48.47:914][  0]LogD3D11RHI:       3029/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.04-11.48.47:921][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.04-11.48.47:921][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.04-11.48.47:921][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.04-11.48.47:950][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.04-11.48.47:950][  0]LogD3D11RHI:     GPU DeviceId: 0x11a1 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.04-11.48.47:950][  0]LogWindows: EnumDisplayDevices:
+[2018.11.04-11.48.47:951][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670MX' (P:1 D:1)
+[2018.11.04-11.48.47:952][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-11.48.47:953][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-11.48.47:954][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670MX' (P:0 D:0)
+[2018.11.04-11.48.47:955][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.04-11.48.47:955][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670MX
+[2018.11.04-11.48.47:955][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.11.04-11.48.47:955][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.11.04-11.48.47:955][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2018.11.04-11.48.48:125][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.04-11.48.48:158][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.04-11.48.48:206][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/UnrealProjectD/NeuralCar/Intermediate/Shaders/WorkingDirectory/11704/).
+[2018.11.04-11.48.48:207][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/A5D017BB4E78FF1332CD4D91779DC322/'.
+[2018.11.04-11.48.49:344][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.04-11.48.49:395][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.04-11.48.49:452][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.04-11.48.49:501][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.04-11.48.49:552][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.04-11.48.49:602][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.04-11.48.49:655][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.04-11.48.49:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.04-11.48.49:745][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.04-11.48.50:048][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.04-11.48.50:177][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-11.48.50:177][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.04-11.48.50:254][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-11.48.50:254][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.04-11.48.50:299][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.04-11.48.50:341][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.04-11.48.50:385][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.04-11.48.50:429][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.04-11.48.50:458][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.04-11.48.50:458][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.04-11.48.50:737][  0]LogXGEController: Cleaning working directory: C:/Users/Admin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.04-11.48.50:738][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.04-11.48.50:738][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.04-11.48.50:738][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.04-11.48.53:579][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.04-11.48.53:873][  0]LogDerivedDataCache: Loaded boot cache 0.29s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-11.48.53:876][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.04-11.48.53:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjectD/NeuralCar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.04-11.48.53:876][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.04-11.48.53:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjectD/NeuralCar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.04-11.48.53:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.04-11.48.53:921][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.04-11.48.53:936][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.04-11.48.53:936][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.04-11.48.53:936][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.04-11.48.54:013][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.04-11.48.54:017][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.04-11.48.54:020][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.04-11.48.54:230][  0]LogAssetRegistry: FAssetRegistry took 0.0364 seconds to start up
+[2018.11.04-11.48.55:482][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-11.48.55:955][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.04-11.48.55:972][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.04-11.48.55:972][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.04-11.48.55:972][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.04-11.48.55:972][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.04-11.48.56:021][  0]LogNetVersion: NeuralCar 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 965436850)
+[2018.11.04-11.48.57:633][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.221270 seconds
+[2018.11.04-11.48.57:650][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.04-11.48.57:650][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.04-11.48.57:650][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.04-11.49.00:515][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.04-11.49.00:532][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.04-11.49.00:870][  0]SourceControl: Source control is disabled
+[2018.11.04-11.49.00:870][  0]SourceControl: Source control is disabled
+[2018.11.04-11.49.00:875][  0]SourceControl: Source control is disabled
+[2018.11.04-11.49.00:879][  0]SourceControl: Source control is disabled
+[2018.11.04-11.49.01:217][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.04-11.49.01:430][  0]LogOcInput: OculusInput pre-init called
+[2018.11.04-11.49.01:624][  0]LogEngine: Initializing Engine...
+[2018.11.04-11.49.01:627][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.04-11.49.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-11.49.01:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-11.49.01:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-11.49.01:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-11.49.02:292][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.04-11.49.02:354][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.04-11.49.02:405][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-11.49.02:526][  0]LogInit: FAudioDevice initialized.
+[2018.11.04-11.49.02:527][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.04-11.49.02:783][  0]LogDerivedDataCache: Saved boot cache 0.26s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.04-11.49.02:826][  0]LogInit: Texture streaming: Enabled
+[2018.11.04-11.49.02:896][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.04-11.49.02:950][  0]LogInit: Transaction tracking system initialized
+[2018.11.04-11.49.03:064][  0]BlueprintLog: New page: Editor Load
+[2018.11.04-11.49.03:405][  0]LocalizationService: Localization service is disabled
+[2018.11.04-11.49.05:142][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.04-11.49.05:142][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.04-11.49.05:143][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.04-11.49.05:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.04-11.49.05:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-11.49.05:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.04-11.49.05:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-11.49.05:585][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/' took 0.02s
+[2018.11.04-11.49.05:611][  0]SourceControl: Source control is disabled
+[2018.11.04-11.49.05:612][  0]Cmd: MAP LOAD FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.04-11.49.05:613][  0]LightingResults: New page: Lighting Build
+[2018.11.04-11.49.05:626][  0]MapCheck: New page: Map Check
+[2018.11.04-11.49.05:626][  0]LightingResults: New page: Lighting Build
+[2018.11.04-11.49.06:181][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/NeuronComponent/SaveObject/NNSave.NNSave_C:NeuronNetwork'. Unknown structure.
+[2018.11.04-11.49.06:182][  0]LogClass: Warning: Property NeuronNetwork of NeuronNetwork has a struct type mismatch (tag STRUCT_REINST_NeuronsNetwork_42 != prop FallbackStruct) in package:  D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/SaveObject/NNSave.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.04-11.49.06:186][  0]LogClass: Warning: Property NeuronNetwork of NeuronNetwork has a struct type mismatch (tag FallbackStruct != prop NeuronsNetwork) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.04-11.49.07:903][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.04-11.49.07:943][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.04-11.49.08:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.04-11.49.08:332][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 316,314ms to complete.
+[2018.11.04-11.49.08:332][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 2.720
+[2018.11.04-11.49.08:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-11.49.08:582][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-11.49.08:616][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-11.49.08:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.04-11.49.08:671][  0]LogCollectionManager: Loaded 0 collections in 0.008945 seconds
+[2018.11.04-11.49.08:735][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Saved/Collections/' took 0.01s
+[2018.11.04-11.49.08:735][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/Developers/Admin/Collections/' took 0.01s
+[2018.11.04-11.49.08:735][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjectD/NeuralCar/Content/Collections/' took 0.01s
+[2018.11.04-11.49.08:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.04-11.49.08:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0311 seconds. Added 2574 classes and 606 folders.
+[2018.11.04-11.49.08:797][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.04-11.49.09:011][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.04-11.49.09:033][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.11.04-11.49.09:082][  0]LogSlate: Took 0.000782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.04-11.49.09:090][  0]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.04-11.49.09:108][  0]LogSlate: Took 0.000666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.04-11.49.09:394][  0]LogRenderer: Reallocating scene render targets to support 1236x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.04-11.49.09:729][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.04-11.49.09:730][  0]LogLoad: (Engine Initialization) Total time: 30.37 seconds
+[2018.11.04-11.49.09:730][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.04-11.49.09:757][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.04-11.49.09:758][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.04-11.49.09:758][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2018.11.04-11.49.09:758][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2018.11.04-11.49.09:758][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2018.11.04-11.49.09:792][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.04-11.49.09:874][  0]LogSlate: Took 0.000694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-11.49.10:337][  4]LogAssetRegistry: Asset discovery search completed in 16.1303 seconds
+[2018.11.04-11.49.10:342][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.04-11.49.10:342][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000177 seconds (updated 0 objects)
+[2018.11.04-11.55.45:505][181]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-11.55.45:505][181]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-11.55.45:513][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-11.55.46:557][225]LogSlate: Took 0.000762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.04-11.55.46:577][225]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NeuronComponent/NeuronComponent.NeuronComponent
+[2018.11.04-11.55.49:384][225]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2018.11.04-11.55.52:609][225]LogSlate: Took 0.025125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.04-11.55.59:330][413]LogSlate: Took 0.041507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.04-11.57.12:631][958]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-11.57.12:632][958]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-11.57.39:802][990]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-11.57.49:191][122]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2018.11.04-11.57.49:680][134]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2018.11.04-11.57.51:214][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-11.57.54:296][348]LogBlueprintUserMessages: [NeuralComponent] 0.13  0
+[2018.11.04-11.57.54:297][348]LogBlueprintUserMessages: [NeuralComponent] -0.42  0
+[2018.11.04-11.57.54:297][348]LogBlueprintUserMessages: [NeuralComponent] -0.34  0
+[2018.11.04-11.57.54:297][348]LogBlueprintUserMessages: [NeuralComponent] 0.42  0
+[2018.11.04-11.57.54:297][348]LogBlueprintUserMessages: [NeuralComponent] 0.25  1
+[2018.11.04-11.57.54:297][348]LogBlueprintUserMessages: [NeuralComponent] -0.2  1
+[2018.11.04-11.57.54:298][348]LogBlueprintUserMessages: [NeuralComponent] 0.07  1
+[2018.11.04-11.57.54:298][348]LogBlueprintUserMessages: [NeuralComponent] 0.32  1
+[2018.11.04-11.57.54:298][348]LogBlueprintUserMessages: [NeuralComponent] -0.41  2
+[2018.11.04-11.57.54:298][348]LogBlueprintUserMessages: [NeuralComponent] 0.12  2
+[2018.11.04-11.57.54:870][376]LogSlate: Took 0.053133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.11.04-11.59.19:120][934]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto11D3567EB406D29527A5509802157397A.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto1.umap'
+[2018.11.04-11.59.21:093][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.786
+[2018.11.04-11.59.21:094][934]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.786
+[2018.11.04-11.59.21:102][934]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-11.59.21:103][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-11.59.21:103][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-11.59.21:834][934]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto19689BAF54FE185A56DC4DFA1C8D442AA.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto1.uasset'
+[2018.11.04-11.59.21:837][934]LogFileHelpers: Auto-saving content packages took 0.737
+[2018.11.04-12.06.01:569][141]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.06.07:964][221]LogBlueprintUserMessages: [NeuralComponent] 0.13  0 0
+[2018.11.04-12.06.07:965][221]LogBlueprintUserMessages: [NeuralComponent] -0.42  0 1
+[2018.11.04-12.06.07:965][221]LogBlueprintUserMessages: [NeuralComponent] -0.34  0 0
+[2018.11.04-12.06.07:966][221]LogBlueprintUserMessages: [NeuralComponent] 0.42  0 1
+[2018.11.04-12.06.07:966][221]LogBlueprintUserMessages: [NeuralComponent] 0.25  1 0
+[2018.11.04-12.06.07:966][221]LogBlueprintUserMessages: [NeuralComponent] -0.2  1 1
+[2018.11.04-12.06.07:967][221]LogBlueprintUserMessages: [NeuralComponent] 0.07  1 0
+[2018.11.04-12.06.07:968][221]LogBlueprintUserMessages: [NeuralComponent] 0.32  1 1
+[2018.11.04-12.06.07:968][221]LogBlueprintUserMessages: [NeuralComponent] -0.41  2 0
+[2018.11.04-12.06.07:968][221]LogBlueprintUserMessages: [NeuralComponent] 0.12  2 1
+[2018.11.04-12.06.40:503][620]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.07.03:524][300]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.07.10:378][493]LogBlueprintUserMessages: [NeuralComponent] 0.13  0 0
+[2018.11.04-12.07.10:379][493]LogBlueprintUserMessages: [NeuralComponent] -0.42  1 0
+[2018.11.04-12.07.10:379][493]LogBlueprintUserMessages: [NeuralComponent] -0.34  0 0
+[2018.11.04-12.07.10:380][493]LogBlueprintUserMessages: [NeuralComponent] 0.42  1 0
+[2018.11.04-12.07.10:380][493]LogBlueprintUserMessages: [NeuralComponent] 0.25  0 1
+[2018.11.04-12.07.10:381][493]LogBlueprintUserMessages: [NeuralComponent] -0.2  1 1
+[2018.11.04-12.07.10:381][493]LogBlueprintUserMessages: [NeuralComponent] 0.07  0 1
+[2018.11.04-12.07.10:382][493]LogBlueprintUserMessages: [NeuralComponent] 0.32  1 1
+[2018.11.04-12.07.10:382][493]LogBlueprintUserMessages: [NeuralComponent] -0.41  0 2
+[2018.11.04-12.07.10:382][493]LogBlueprintUserMessages: [NeuralComponent] 0.12  1 2
+[2018.11.04-12.09.35:192][689]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto272BB670140B81052E973899CE3C5F780.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto2.umap'
+[2018.11.04-12.09.35:204][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.904
+[2018.11.04-12.09.35:205][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.904
+[2018.11.04-12.09.35:211][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-12.09.35:212][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-12.09.35:212][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-12.09.36:201][689]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto25E3CE3CA4FAD75584C274091373FC883.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto2.uasset'
+[2018.11.04-12.09.36:206][689]LogFileHelpers: Auto-saving content packages took 0.998
+[2018.11.04-12.34.26:137][157]LogSlate: Took 0.025944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.04-12.34.37:886][468]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.35.10:070][365]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.35.10:071][365]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.35.15:519][415]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.843 s
+[2018.11.04-12.35.15:519][415]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.04-12.35.15:520][415]LogOutputDevice: Error: 
+[2018.11.04-12.35.15:520][415]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\InputCore\Private\InputCoreTypes.cpp] [Line: 717]
+[2018.11.04-12.35.15:521][415]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_1093'
+[2018.11.04-12.35.15:521][415]LogOutputDevice: Error: Stack: 
+[2018.11.04-12.35.15:521][415]LogOutputDevice: Error: [Callstack] 0x00007fffac4e71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-12.35.15:522][415]LogOutputDevice: Error: [Callstack] 0x00007fffac220c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-12.35.15:522][415]LogOutputDevice: Error: [Callstack] 0x00007fffac23b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-12.35.15:523][415]LogOutputDevice: Error: [Callstack] 0x00007fffd8f597d8 UE4Editor-InputCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:523][415]LogOutputDevice: Error: [Callstack] 0x00007fffd8f5d6a5 UE4Editor-InputCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:523][415]LogOutputDevice: Error: [Callstack] 0x00007fffabb699a9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-12.35.15:524][415]LogOutputDevice: Error: [Callstack] 0x00007fffd7cecfd6 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:524][415]LogOutputDevice: Error: [Callstack] 0x00007fffd7ce0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:525][415]LogOutputDevice: Error: [Callstack] 0x00007fffd7cef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:525][415]LogOutputDevice: Error: [Callstack] 0x00007fffd7cdc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:526][415]LogOutputDevice: Error: [Callstack] 0x00007fffee026cc1 USER32.dll!UnknownFunction []
+[2018.11.04-12.35.15:526][415]LogOutputDevice: Error: [Callstack] 0x00007fffee026693 USER32.dll!UnknownFunction []
+[2018.11.04-12.35.15:527][415]LogOutputDevice: Error: [Callstack] 0x00007fffd7cf0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-12.35.15:527][415]LogOutputDevice: Error: [Callstack] 0x00007ff6cf8254e5 UE4Editor.exe!UnknownFunction []
+[2018.11.04-12.35.15:528][415]LogOutputDevice: Error: [Callstack] 0x00007ff6cf835b3c UE4Editor.exe!UnknownFunction []
+[2018.11.04-12.35.15:528][415]LogOutputDevice: Error: [Callstack] 0x00007ff6cf835bba UE4Editor.exe!UnknownFunction []
+[2018.11.04-12.35.15:529][415]LogOutputDevice: Error: [Callstack] 0x00007ff6cf843dac UE4Editor.exe!UnknownFunction []
+[2018.11.04-12.35.15:529][415]LogOutputDevice: Error: [Callstack] 0x00007ff6cf845aaa UE4Editor.exe!UnknownFunction []
+[2018.11.04-12.35.15:529][415]LogOutputDevice: Error: [Callstack] 0x00007ffff0773034 KERNEL32.DLL!UnknownFunction []
+[2018.11.04-12.35.15:530][415]LogOutputDevice: Error: [Callstack] 0x00007ffff0bf1461 ntdll.dll!UnknownFunction []
+[2018.11.04-12.35.15:530][415]LogOutputDevice: Error: 
+[2018.11.04-12.35.15:542][415]LogStats:                SubmitErrorReport -  0.003 s
+[2018.11.04-12.35.24:254][415]LogStats:                    SendNewReport -  8.711 s
+[2018.11.04-12.35.24:255][415]LogStats:             FDebug::EnsureFailed - 12.579 s
+[2018.11.04-12.35.28:533][425]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto3E8FAA11444DFF8E007CECA8728AAF6B7.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto3.umap'
+[2018.11.04-12.35.28:543][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 1.088
+[2018.11.04-12.35.28:543][425]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.088
+[2018.11.04-12.35.28:549][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-12.35.28:550][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-12.35.28:552][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-12.35.29:825][425]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto37ABCDE3F45A652F163664D819BE1E834.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto3.uasset'
+[2018.11.04-12.35.29:830][425]LogFileHelpers: Auto-saving content packages took 1.284
+[2018.11.04-12.36.39:835][182]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.36.39:836][182]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.38.20:829][747]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.39.22:784][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-12.39.23:540][556]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponentED82348C436D9BCBD756E68B7680A4FF.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-12.40.00:546][620]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.40.00:546][620]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.41.03:780][402]LogSlate: Window 'Color Picker' being destroyed
+[2018.11.04-12.42.16:772][991]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.42.16:773][991]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-12.43.30:761][962]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.43.31:543][962]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2018.11.04-12.46.35:760][241]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.46.36:538][241]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2018.11.04-12.47.56:503][635]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.47.58:365][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-12.47.59:142][652]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent6253F1DB44605B9010FCB28FA93D7872.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-12.48.05:215][953]LogBlueprintUserMessages: [NeuralComponent] Count output parametrs more or less, then specified at the expected result. Try change count expected results.
+[2018.11.04-12.48.13:299][402]LogBlueprintUserMessages: [NeuralComponent] Count output parametrs more or less, then specified at the expected result. Try change count expected results.
+[2018.11.04-12.49.17:830][151]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.49.26:571][489]LogBlueprintUserMessages: [NeuralComponent] 1 1
+[2018.11.04-12.49.26:573][489]LogBlueprintUserMessages: [NeuralComponent] Count output parametrs more or less, then specified at the expected result. Try change count expected results.
+[2018.11.04-12.49.48:927][410]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.50.40:872][574]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto4D2DC23F940BAB964E59EBE915B6D69F1.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto4.umap'
+[2018.11.04-12.50.40:881][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.720
+[2018.11.04-12.50.40:881][574]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.720
+[2018.11.04-12.50.40:889][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-12.50.40:890][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-12.50.40:890][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-12.50.41:642][574]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto47973D41242FF40A165EB0C95606FBD15.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto4.uasset'
+[2018.11.04-12.50.41:647][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-12.50.41:757][574]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/Sedan/Sedan.Sedan]
+[2018.11.04-12.50.41:757][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-12.50.41:758][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-12.50.42:065][574]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto4540F3FCA42B7C13A10D7668B36524C49.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto4.uasset'
+[2018.11.04-12.50.42:090][574]LogFileHelpers: Auto-saving content packages took 1.203
+[2018.11.04-12.51.26:838][602]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.51.39:222][932]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.51.48:412][243]LogBlueprintUserMessages: [NeuralComponent] 0.128824  0 0
+[2018.11.04-12.51.48:413][243]LogBlueprintUserMessages: [NeuralComponent] -0.42  1 0
+[2018.11.04-12.51.48:413][243]LogBlueprintUserMessages: [NeuralComponent] -0.338454  0 0
+[2018.11.04-12.51.48:414][243]LogBlueprintUserMessages: [NeuralComponent] 0.42  1 0
+[2018.11.04-12.51.48:414][243]LogBlueprintUserMessages: [NeuralComponent] 0.247258  0 1
+[2018.11.04-12.51.48:414][243]LogBlueprintUserMessages: [NeuralComponent] -0.202142  1 1
+[2018.11.04-12.51.48:415][243]LogBlueprintUserMessages: [NeuralComponent] 0.070796  0 1
+[2018.11.04-12.51.48:415][243]LogBlueprintUserMessages: [NeuralComponent] 0.320622  1 1
+[2018.11.04-12.51.48:416][243]LogBlueprintUserMessages: [NeuralComponent] -0.403487  0 2
+[2018.11.04-12.51.48:416][243]LogBlueprintUserMessages: [NeuralComponent] 0.126894  1 2
+[2018.11.04-12.53.04:032][ 83]LogSlate: Window 'Save Content' being destroyed
+[2018.11.04-12.53.04:089][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-12.53.04:903][ 83]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponentC9930F834F6FFBD4C64D3990B7B4E27F.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-12.53.05:314][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.04-12.53.06:086][ 83]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMapEA9F263649C926BA997633B9A214A755.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.11.04-12.53.06:194][ 83]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.253
+[2018.11.04-12.53.06:207][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2018.11.04-12.53.06:472][ 83]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/SedanD230A2864905B222EFE2CBA0085FA98D.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/VehicleBP/Sedan/Sedan.uasset'
+[2018.11.04-12.53.39:472][971]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.53.48:014][206]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-12.53.49:800][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-12.53.50:580][218]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent43B5E47349E052DD1FB5C8A988BEB6AF.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-13.03.06:116][894]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto58FF218DB42578742E2E257AC637C0B2A.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto5.umap'
+[2018.11.04-13.03.06:125][894]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.744
+[2018.11.04-13.03.06:125][894]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.744
+[2018.11.04-13.03.06:132][894]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-13.03.06:132][894]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-13.03.06:133][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-13.03.06:887][894]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto5BEB6E5624DDB1CE40E5855A656FFC8F6.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto5.uasset'
+[2018.11.04-13.03.06:891][894]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-13.03.06:892][894]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-13.03.06:892][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-13.03.07:174][894]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto58CAB687340590C92C00EA58C346C7F98.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto5.uasset'
+[2018.11.04-13.03.07:177][894]LogFileHelpers: Auto-saving content packages took 1.046
+[2018.11.04-13.22.51:612][497]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-13.22.51:613][497]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-13.31.53:833][ 84]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-13.31.53:834][ 84]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-13.32.30:742][860]LogClass: Warning: Potential data loss during conversion of integer property Epochs of FObjectReader - was (0.100000) now (0) - for package: FObjectReader
+[2018.11.04-13.32.55:722][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.101
+[2018.11.04-13.32.55:726][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-13.32.55:727][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-13.32.55:727][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-13.32.56:502][704]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto65D04BA0543A4196BB4BCDA980860A71A.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto6.uasset'
+[2018.11.04-13.32.56:505][704]LogFileHelpers: Auto-saving content packages took 0.781
+[2018.11.04-14.38.30:588][714]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.38.30:589][714]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.38.48:149][321]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/NeuronComponent/Struct/NueronsResult.NueronsResult
+[2018.11.04-14.38.59:601][796]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.38.59:602][796]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.39.05:386][ 62]LogMetaData: Removing '/Game/NeuronComponent/Struct/ArrayOfFloat.ArrayOfFloat' ref from Metadata '/Game/NeuronComponent/Struct/NueronsResult.PackageMetaData'
+[2018.11.04-14.39.05:387][ 62]LogMetaData: Removing '/Game/NeuronComponent/Struct/ArrayOfFloat.ArrayOfFloat:Neurons_4_235BF4414DB959E9BDC2B48E76975974' ref from Metadata '/Game/NeuronComponent/Struct/NueronsResult.PackageMetaData'
+[2018.11.04-14.39.05:494][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/Struct/ArrayOfFloat" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset" SILENT=true
+[2018.11.04-14.39.05:530][ 62]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/ArrayOfFloatEE57B27649E8AD8019F5AEA86AB0959A.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset'
+[2018.11.04-14.39.06:069][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset" SILENT=true
+[2018.11.04-14.39.06:915][ 62]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent8A36E48C482C2B4F9E1E5CBE23E5B196.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/NeuronComponent.uasset'
+[2018.11.04-14.39.07:924][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/Struct/ArrayOfFloat" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset" SILENT=true
+[2018.11.04-14.39.07:956][ 91]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/ArrayOfFloat97F40405400267ABC3CFBC824CE29324.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset'
+[2018.11.04-14.39.36:001][584]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.39.36:002][584]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.39.40:219][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/Struct/ArrayOfFloat" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset" SILENT=true
+[2018.11.04-14.39.40:251][766]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/ArrayOfFloatF1CF43624125873C7519769763C0EFC0.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset'
+[2018.11.04-14.40.19:058][213]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto7FBB6BF9C4EBED20D4B0380A346460B7E.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto7.umap'
+[2018.11.04-14.40.19:151][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.831
+[2018.11.04-14.40.19:151][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.831
+[2018.11.04-14.40.19:155][213]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-14.40.19:236][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/Sedan/Sedan.Sedan]
+[2018.11.04-14.40.19:237][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-14.40.19:237][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-14.40.19:557][213]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto7B94E381F498E783F0E913B9DF9318ECC.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto7.uasset'
+[2018.11.04-14.40.19:561][213]LogFileHelpers: Auto-saving content packages took 0.407
+[2018.11.04-14.47.34:980][552]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.47.34:981][552]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.47.40:380][745]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'Expend result ' instances, change its type, and recompile?
+[2018.11.04-14.47.42:162][783]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.47.42:179][783]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.36:724][392]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.48.36:726][392]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.48.40:342][499]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.48.40:343][499]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.48.42:322][560]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'Expend result ' instances, change its type, and recompile?
+[2018.11.04-14.48.44:157][598]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.44:173][598]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.49:805][742]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'Testing input result ' instances, change its type, and recompile?
+[2018.11.04-14.48.51:592][780]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.51:607][780]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.54:029][847]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'Testing input result ' instances, change its type, and recompile?
+[2018.11.04-14.48.55:755][888]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.48.55:769][888]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.11.04-14.49.34:778][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/Struct/ArrayOfFloat" FILE="D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset" SILENT=true
+[2018.11.04-14.49.34:815][258]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/ArrayOfFloat8DD41B264B513C37EC2EE78C0AC94098.tmp' to 'D:/UnrealProjectD/NeuralCar/Content/NeuronComponent/Struct/ArrayOfFloat.uasset'
+[2018.11.04-14.49.38:579][370]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-14.49.39:204][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:205][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:254][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:260][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ReverseForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:269][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:292][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:294][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:295][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:297][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:298][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:299][370]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.39:344][370]LogBlueprint: Error: [Compiler NeuronComponent] The current value of the ' Input ' pin is invalid: Array inputs (like 'Input') must have an input wired into them (try connecting a MakeArray node).
+[2018.11.04-14.49.39:345][370]LogBlueprint: Error: [Compiler NeuronComponent] The current value of the ' Expexted Result ' pin is invalid: Array inputs (like 'Expexted Result') must have an input wired into them (try connecting a MakeArray node).
+[2018.11.04-14.49.39:359][370]LogBlueprint: Warning: [Compiler NeuronComponent] Can't parse default value '0.100000' for  <None> . Property: Epochs.
+[2018.11.04-14.49.39:380][370]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2018.11.04-14.49.39:381][370]LogClass: Warning: Array Inner Type mismatch in Expend result  of Expend result  - Previous (FloatProperty) Current(StructProperty) for package:  FObjectReader
+[2018.11.04-14.49.39:382][370]LogClass: Warning: Array Inner Type mismatch in Testing input result  of Testing input result  - Previous (FloatProperty) Current(StructProperty) for package:  FObjectReader
+[2018.11.04-14.49.39:391][370]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2018.11.04-14.49.40:043][370]LogBlueprint: Warning: [Compiler NeuronComponent] [0860,68] Compile of NeuronComponent failed. 13 Fatal Issue(s) 1 Warning(s) [in 1 464 ms] (/Game/NeuronComponent/NeuronComponent.NeuronComponent)
+[2018.11.04-14.49.45:542][526]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-14.49.46:058][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:059][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:108][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:113][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ReverseForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:122][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:145][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:146][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:148][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:149][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:150][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:151][526]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.46:718][526]LogBlueprint: Warning: [Compiler NeuronComponent] [0867,36] Compile of NeuronComponent failed. 11 Fatal Issue(s) 0 Warning(s) [in 1 175 ms] (/Game/NeuronComponent/NeuronComponent.NeuronComponent)
+[2018.11.04-14.49.49:853][613]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-14.49.50:371][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:372][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:421][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:426][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ReverseForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:435][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Array Element Neurons  no longer exists on node  ForEachLoop . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:457][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:459][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:460][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:462][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:463][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.50:464][613]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.49.51:014][613]LogBlueprint: Warning: [Compiler NeuronComponent] [0871,66] Compile of NeuronComponent failed. 11 Fatal Issue(s) 0 Warning(s) [in 1 160 ms] (/Game/NeuronComponent/NeuronComponent.NeuronComponent)
+[2018.11.04-14.50.54:436][357]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-14.50.54:942][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Add . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:026][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:027][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Item Neurons  no longer exists on node  Set Array Elem . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:029][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:030][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:031][357]LogBlueprint: Error: [Compiler NeuronComponent] In use pin  Neurons  no longer exists on node  Get (a copy) . Please refresh node or break links to remove pin.
+[2018.11.04-14.50.55:641][357]LogBlueprint: Warning: [Compiler NeuronComponent] [0936,28] Compile of NeuronComponent failed. 6 Fatal Issue(s) 0 Warning(s) [in 1 204 ms] (/Game/NeuronComponent/NeuronComponent.NeuronComponent)
+[2018.11.04-14.51.45:743][691]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-14.52.25:470][814]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.52.25:471][814]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.52.26:437][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.52.26:437][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-14.53.26:538][  8]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto8F5EA4226448CE49DFB0B2CA1904270AF.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto8.umap'
+[2018.11.04-14.53.26:548][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.958
+[2018.11.04-14.53.26:549][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.958
+[2018.11.04-14.53.26:553][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-14.53.26:554][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-14.53.26:554][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-14.53.27:440][  8]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto8B72E9AAC4BF98B73296C72A7D68D1646.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto8.uasset'
+[2018.11.04-14.53.27:445][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-14.53.27:446][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-14.53.27:446][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-14.53.27:790][  8]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto8FDFE3D3942A3FC13EC74E9BE3281797F.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto8.uasset'
+[2018.11.04-14.53.29:704][  8]LogFileHelpers: Auto-saving content packages took 3.154
+[2018.11.04-15.01.07:945][377]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.01.07:946][377]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.01.36:012][190]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.01.36:013][190]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.01.46:874][482]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2018.11.04-15.03.30:290][123]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.093
+[2018.11.04-15.03.30:296][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-15.03.30:297][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-15.03.30:297][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.03.31:152][123]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto975F0C5DF427CA8B355DF328306763B82.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto9.uasset'
+[2018.11.04-15.03.31:157][123]LogFileHelpers: Auto-saving content packages took 0.863
+[2018.11.04-15.08.31:751][ 22]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.08.31:752][ 22]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.11.05:118][731]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.11.05:119][731]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.11.12:783][957]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-15.13.34:479][362]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto0FEFB85784308217E371AC9914A90BD73.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto0.umap'
+[2018.11.04-15.13.34:490][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.859
+[2018.11.04-15.13.34:490][362]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.859
+[2018.11.04-15.13.34:498][362]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-15.13.34:499][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-15.13.34:500][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.13.35:350][362]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto0205584904241372DABCFE385A426926B.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto0.uasset'
+[2018.11.04-15.13.35:356][362]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-15.13.35:356][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-15.13.35:357][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.13.35:659][362]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto025D930AC483DBBB742198A848160857F.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto0.uasset'
+[2018.11.04-15.13.35:672][362]LogFileHelpers: Auto-saving content packages took 1.177
+[2018.11.04-15.22.59:616][ 48]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.22.59:617][ 48]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.23.16:310][518]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.23.16:311][518]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.23.53:983][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.075
+[2018.11.04-15.23.53:987][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-15.23.53:988][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-15.23.53:989][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.23.54:919][ 43]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto1996403664449BED80B9A8C8DEA85389E.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto1.uasset'
+[2018.11.04-15.23.54:923][ 43]LogFileHelpers: Auto-saving content packages took 0.938
+[2018.11.04-15.25.36:271][346]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.25.36:272][346]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.27.59:295][479]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.27.59:296][479]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.28.46:983][813]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-15.33.58:015][601]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto290167B8B4FEA2E886C2049B65CE271A8.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto2.umap'
+[2018.11.04-15.33.58:028][601]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.845
+[2018.11.04-15.33.58:028][601]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.845
+[2018.11.04-15.33.58:036][601]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-15.33.58:037][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-15.33.58:037][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.33.58:921][601]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto2B2CB30E8437FE666516D91917C88169C.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto2.uasset'
+[2018.11.04-15.33.58:926][601]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-15.33.58:926][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-15.33.58:927][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.33.59:241][601]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto2BA748DE54A88F1981ED9888B8495A809.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto2.uasset'
+[2018.11.04-15.33.59:245][601]LogFileHelpers: Auto-saving content packages took 1.211
+[2018.11.04-15.37.04:946][616]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.37.04:946][616]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-15.49.31:311][460]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-15.49.58:481][529]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/VehicleExampleMap_Auto3B237ABB3450B00BA0BCE0A84E561C399.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto3.umap'
+[2018.11.04-15.49.58:493][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 2.819
+[2018.11.04-15.49.58:494][529]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.819
+[2018.11.04-15.49.58:501][529]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NeuronComponent/NeuronComponent] ([1] browsable assets)...
+[2018.11.04-15.49.58:502][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/NeuronComponent/NeuronComponent]
+[2018.11.04-15.49.58:503][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeuronComponent/NeuronComponent" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.49.59:297][529]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/NeuronComponent_Auto3233DC3914B206FED6E81969BFAD3F527.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/NeuronComponent/NeuronComponent_Auto3.uasset'
+[2018.11.04-15.49.59:303][529]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2018.11.04-15.49.59:303][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2018.11.04-15.49.59:304][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.11.04-15.49.59:627][529]LogSavePackage: Moving 'D:/UnrealProjectD/NeuralCar/Saved/Sedan_Auto3C0B0A54B4C16F988F00B2B99B44FEA3E.tmp' to 'D:/UnrealProjectD/NeuralCar/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto3.uasset'
+[2018.11.04-15.49.59:631][529]LogFileHelpers: Auto-saving content packages took 1.133
+[2018.11.04-15.51.11:714][ 94]BlueprintLog: New page: Compile NeuronComponent
+[2018.11.04-15.51.28:199][608]LogScript: Warning: Attempted to access index 0 from array Expend result  of length 0!
+	NeuronComponent_C /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.Sedan_C_0.NeuralComponent
+	Function /Game/NeuronComponent/NeuronComponent.NeuronComponent_C:Teach CIE (Back Prop):032A
+[2018.11.04-15.51.28:201][608]LogScript: Warning: Accessed None reading structure Float_5_235BF4414DB959E9BDC2B48E76975974
+	NeuronComponent_C /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.Sedan_C_0.NeuralComponent
+	Function /Game/NeuronComponent/NeuronComponent.NeuronComponent_C:Teach CIE (Back Prop):032A
+[2018.11.04-15.51.28:202][608]LogOutputDevice: Warning: 
+
+Script Stack:
+NeuronComponent_C.Teach with error back propagation method
+NeuronComponent_C.Teach CIE (Back Prop)
+
+[2018.11.04-15.51.28:277][608]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.074 s
+[2018.11.04-15.51.28:278][608]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.04-15.51.28:278][608]LogOutputDevice: Error: 
+[2018.11.04-15.51.28:278][608]LogOutputDevice: Error: Ensure condition failed: Stack.MostRecentPropertyAddress [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp] [Line: 844]
+[2018.11.04-15.51.28:279][608]LogOutputDevice: Error: 
+[2018.11.04-15.51.28:279][608]LogOutputDevice: Error: Stack: 
+[2018.11.04-15.51.28:279][608]LogOutputDevice: Error: [Callstack] 0x00007fffac4e71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-15.51.28:280][608]LogOutputDevice: Error: [Callstack] 0x00007fffac220c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-15.51.28:280][608]LogOutputDevice: Error: [Callstack] 0x00007fffac23b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.04-15.51.28:281][608]LogOutputDevice: Error: [Callstack] 0x00007fffb0541a03 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.11.04-15.51.28:281][608]LogOutputDevice: Error: [Callstack] 0x00007fffb0561b96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.11.04-15.51.28:282][608]LogOutputDevice: Error: [Callstack] 0x00007fffb0336467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.11.04-15.51.28:282][608]LogOutputDevice: Error: [Callstack] 0x00007fffb0561133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.11.04-15.51.28:283][608]LogOutputDevice: Error: [Callstack] 0x00007fffa3cb8aec UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.11.04-15.51.28:283][608]LogOutputDevice: Error: [Callstack] 0x00007fffa3c6e1f2 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2018.11.04-15.51.28:284][608]LogOutputDevice: Error: [Callstack] 0x00007fffabd09c3b UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-15.51.28:284][608]LogOutputDevice: Error: [Callstack] 0x00007fffabaf94c5 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-15.51.28:284][608]LogOutputDevice: Error: [Callstack] 0x00007fffabb91db2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-15.51.28:285][608]LogOutputDevice: Error: [Callstack] 0x00007fffabb77c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-15.51.28:286][608]LogOutputDevice: Error: [Callstack] 0x00007fffabb6b25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.04-15.51.28:286][608]LogOutputDevice: Error: [Callstack] 0x00007fffd7ced1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-15.51.28:286][608]LogOutputDevice: Error: [Callstack] 0x00007fffd7ce0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-15.51.28:287][608]LogOutputDevice: Error: [Callstack] 0x00007fffd7cef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-15.51.28:287][608]LogOutputDevice: Error: [Callstack] 0x00007fffd7cdc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-15.51.28:288][608]LogOutputDevice: Error: [Callstack] 0x00007fffee026cc1 USER32.dll!UnknownFunction []
+[2018.11.04-15.51.28:288][608]LogOutputDevice: Error: [Callstack] 0x00007fffee026693 USER32.dll!UnknownFunction []
+[2018.11.04-15.51.28:289][608]LogOutputDevice: Error: [Callstack] 0x00007fffd7cf0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.04-15.51.28:289][608]LogOutputDevice: Error: [Callstack] 0x00007ff6cf8254e5 UE4Editor.exe!UnknownFunction []
+[2018.11.04-15.51.28:290][608]LogOutputDevice: Error: [Callstack] 0x00007ff6cf835b3c UE4Editor.exe!UnknownFunction []
+[2018.11.04-15.51.28:290][608]LogOutputDevice: Error: [Callstack] 0x00007ff6cf835bba UE4Editor.exe!UnknownFunction []
+[2018.11.04-15.51.28:290][608]LogOutputDevice: Error: [Callstack] 0x00007ff6cf843dac UE4Editor.exe!UnknownFunction []
+[2018.11.04-15.51.28:291][608]LogOutputDevice: Error: [Callstack] 0x00007ff6cf845aaa UE4Editor.exe!UnknownFunction []
+[2018.11.04-15.51.28:291][608]LogOutputDevice: Error: [Callstack] 0x00007ffff0773034 KERNEL32.DLL!UnknownFunction []
+[2018.11.04-15.51.28:292][608]LogOutputDevice: Error: [Callstack] 0x00007ffff0bf1461 ntdll.dll!UnknownFunction []
+[2018.11.04-15.51.28:292][608]LogOutputDevice: Error: 
+[2018.11.04-15.51.28:302][608]LogStats:                SubmitErrorReport -  0.000 s
