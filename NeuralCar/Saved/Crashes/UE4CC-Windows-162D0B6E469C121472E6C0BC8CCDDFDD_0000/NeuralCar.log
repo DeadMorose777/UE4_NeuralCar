@@ -1,0 +1,769 @@
+﻿Log file open, 07/03/22 00:43:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NeuralCar
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.726404
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.072s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.07.02-21.43.06:135][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.02-21.43.06:135][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.07.02-21.43.06:146][  0]LogHAL: Display: Platform has ~ 32 GB [34270646272 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.07.02-21.43.06:146][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2022.07.02-21.43.06:146][  0]LogInit: Going up to parent DeviceProfile []
+[2022.07.02-21.43.06:147][  0]LogInit: Computer: DESKTOP-D64GIAF
+[2022.07.02-21.43.06:147][  0]LogInit: User: Admin
+[2022.07.02-21.43.06:147][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.07.02-21.43.06:147][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.07.02-21.43.06:147][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.07.02-21.43.06:147][  0]LogMemory: Platform Memory Stats for Windows
+[2022.07.02-21.43.06:147][  0]LogMemory: Process Physical Memory: 103.58 MB used, 103.58 MB peak
+[2022.07.02-21.43.06:147][  0]LogMemory: Process Virtual Memory: 91.23 MB used, 91.23 MB peak
+[2022.07.02-21.43.06:147][  0]LogMemory: Physical Memory: 6065.77 MB used,  26617.27 MB free, 32683.04 MB total
+[2022.07.02-21.43.06:147][  0]LogMemory: Virtual Memory: 4662.26 MB used,  26617.27 MB free, 134217728.00 MB total
+[2022.07.02-21.43.06:191][  0]LogInit: Using OS detected language (ru-RU).
+[2022.07.02-21.43.06:191][  0]LogInit: Using OS detected locale (ru-RU).
+[2022.07.02-21.43.06:191][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2022.07.02-21.43.06:204][  0]LogStreaming: Display: Took  0.013s to InitEngineTextLocalization.
+[2022.07.02-21.43.06:204][  0]LogInit: Setting process to per monitor DPI aware
+[2022.07.02-21.43.06:251][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.02-21.43.06:251][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.02-21.43.07:574][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.02-21.43.07:574][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.02-21.43.07:676][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2022.07.02-21.43.07:676][  0]LogD3D11RHI:       8031/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.07.02-21.43.07:678][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.02-21.43.07:678][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.02-21.43.07:678][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.07.02-21.43.07:682][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.02-21.43.07:682][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.02-21.43.07:682][  0]LogWindows: EnumDisplayDevices:
+[2022.07.02-21.43.07:682][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2022.07.02-21.43.07:682][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2022.07.02-21.43.07:683][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.07.02-21.43.07:683][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.07.02-21.43.07:683][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.07.02-21.43.07:683][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2022.07.02-21.43.07:683][  0]LogD3D11RHI:   Driver Version: 512.95 (internal:30.0.15.1295, unified:512.95)
+[2022.07.02-21.43.07:683][  0]LogD3D11RHI:      Driver Date: 5-19-2022
+[2022.07.02-21.43.07:683][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2022.07.02-21.43.07:731][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.02-21.43.07:741][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.07.02-21.43.07:745][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2022.07.02-21.43.07:745][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/GitStorage/UE4_NeuralCar/NeuralCar/Intermediate/Shaders/WorkingDirectory/6124/).
+[2022.07.02-21.43.07:745][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/B4ACF11F40A221D41D0AA6999A242653/'.
+[2022.07.02-21.43.08:071][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.07.02-21.43.08:082][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.07.02-21.43.08:092][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.07.02-21.43.08:102][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.07.02-21.43.08:112][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.07.02-21.43.08:122][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.07.02-21.43.08:131][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.07.02-21.43.08:141][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.07.02-21.43.08:146][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:202][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.02-21.43.08:203][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.07.02-21.43.08:256][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.07.02-21.43.08:256][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.07.02-21.43.08:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.07.02-21.43.08:274][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.07.02-21.43.08:283][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.07.02-21.43.08:292][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.07.02-21.43.08:300][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.07.02-21.43.08:310][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.07.02-21.43.08:316][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2022.07.02-21.43.08:316][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.07.02-21.43.08:356][  0]LogXGEController: Cleaning working directory: C:/Users/Admin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.07.02-21.43.08:357][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.07.02-21.43.08:357][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.07.02-21.43.08:357][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.07.02-21.43.09:651][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.07.02-21.43.09:693][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2022.07.02-21.43.09:693][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2022.07.02-21.43.09:694][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GitStorage/UE4_NeuralCar/NeuralCar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.07.02-21.43.09:694][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.07.02-21.43.09:694][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GitStorage/UE4_NeuralCar/NeuralCar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.02-21.43.09:694][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.07.02-21.43.09:709][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.07.02-21.43.09:720][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.07.02-21.43.09:720][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.07.02-21.43.09:720][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.07.02-21.43.09:733][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.07.02-21.43.09:734][  0]LogSlate: Using FreeType 2.6.0
+[2022.07.02-21.43.09:741][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.02-21.43.09:811][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2022.07.02-21.43.10:015][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.02-21.43.10:108][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.07.02-21.43.10:110][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.07.02-21.43.10:110][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.07.02-21.43.10:110][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.07.02-21.43.10:110][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.07.02-21.43.10:122][  0]LogNetVersion: NeuralCar 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 965436850)
+[2022.07.02-21.43.10:445][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.033888 seconds
+[2022.07.02-21.43.10:449][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2022.07.02-21.43.10:449][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2022.07.02-21.43.10:449][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.07.02-21.43.11:143][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.07.02-21.43.11:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.07.02-21.43.11:271][  0]SourceControl: Source control is disabled
+[2022.07.02-21.43.11:271][  0]SourceControl: Source control is disabled
+[2022.07.02-21.43.11:272][  0]SourceControl: Source control is disabled
+[2022.07.02-21.43.11:272][  0]SourceControl: Source control is disabled
+[2022.07.02-21.43.11:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.02-21.43.11:519][  0]LogOcInput: OculusInput pre-init called
+[2022.07.02-21.43.11:565][  0]LogEngine: Initializing Engine...
+[2022.07.02-21.43.11:565][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.02-21.43.11:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2022.07.02-21.43.11:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.02-21.43.11:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2022.07.02-21.43.11:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.02-21.43.11:704][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.07.02-21.43.11:712][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.07.02-21.43.11:751][  0]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.43.11:781][  0]LogInit: FAudioDevice initialized.
+[2022.07.02-21.43.11:782][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.07.02-21.43.11:847][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2022.07.02-21.43.11:850][  0]LogInit: Texture streaming: Enabled
+[2022.07.02-21.43.11:861][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.07.02-21.43.11:869][  0]LogInit: Transaction tracking system initialized
+[2022.07.02-21.43.11:883][  0]BlueprintLog: New page: Editor Load
+[2022.07.02-21.43.11:934][  0]LocalizationService: Localization service is disabled
+[2022.07.02-21.43.12:114][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.07.02-21.43.12:114][  0]LogCook: Display: Mobile HDR setting 1
+[2022.07.02-21.43.12:114][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.07.02-21.43.12:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2022.07.02-21.43.12:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.02-21.43.12:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2022.07.02-21.43.12:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.02-21.43.12:193][  0]LogFileCache: Scanning file cache for directory 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/' took 0.01s
+[2022.07.02-21.43.12:193][  0]SourceControl: Source control is disabled
+[2022.07.02-21.43.12:193][  0]Cmd: MAP LOAD FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.02-21.43.12:193][  0]LightingResults: New page: Lighting Build
+[2022.07.02-21.43.12:195][  0]MapCheck: New page: Map Check
+[2022.07.02-21.43.12:195][  0]LightingResults: New page: Lighting Build
+[2022.07.02-21.43.12:766][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.07.02-21.43.12:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.02-21.43.12:868][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.02-21.43.12:926][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57,971ms to complete.
+[2022.07.02-21.43.12:927][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.734
+[2022.07.02-21.43.13:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.13:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.13:034][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.13:039][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.13:046][  0]LogCollectionManager: Loaded 0 collections in 0.001091 seconds
+[2022.07.02-21.43.13:085][  0]LogFileCache: Scanning file cache for directory 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/Collections/' took 0.01s
+[2022.07.02-21.43.13:085][  0]LogFileCache: Scanning file cache for directory 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/Developers/Admin/Collections/' took 0.01s
+[2022.07.02-21.43.13:085][  0]LogFileCache: Scanning file cache for directory 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/Collections/' took 0.01s
+[2022.07.02-21.43.13:085][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.07.02-21.43.13:092][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2574 classes and 606 folders.
+[2022.07.02-21.43.13:096][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.07.02-21.43.13:257][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.07.02-21.43.13:261][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2022.07.02-21.43.13:339][  0]LogSlate: Took 0.003000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.02-21.43.13:343][  0]LogSlate: Took 0.002964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.07.02-21.43.13:350][  0]LogSlate: Took 0.003413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.07.02-21.43.13:356][  0]LogSlate: Took 0.003928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.07.02-21.43.13:489][  0]LogRenderer: Reallocating scene render targets to support 1256x792 Format 10 NumSamples 1 (Frame:1).
+[2022.07.02-21.43.13:621][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.07.02-21.43.13:621][  0]LogLoad: (Engine Initialization) Total time: 10.05 seconds
+[2022.07.02-21.43.13:621][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.02-21.43.13:631][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2022.07.02-21.43.13:632][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2022.07.02-21.43.13:632][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2022.07.02-21.43.13:632][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2022.07.02-21.43.13:633][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2022.07.02-21.43.13:648][  0]LogAssetRegistry: Asset discovery search completed in 3.8599 seconds
+[2022.07.02-21.43.13:649][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.07.02-21.43.13:649][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000136 seconds (updated 0 objects)
+[2022.07.02-21.43.13:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.02-21.43.13:698][  0]LogSlate: Took 0.003017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.02-21.43.15:128][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.43.15:291][187]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.02-21.43.15:365][187]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.43.15:425][187]LogAssetEditorManager: Opening Asset editor for World /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1
+[2022.07.02-21.43.15:447][187]Cmd: MAP LOAD FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.02-21.43.15:447][187]LightingResults: New page: Lighting Build
+[2022.07.02-21.43.15:448][187]LoadErrors: New page: Loading map: VehicleExampleMap1.umap
+[2022.07.02-21.43.15:450][187]MapCheck: New page: Map Check
+[2022.07.02-21.43.15:450][187]LightingResults: New page: Lighting Build
+[2022.07.02-21.43.15:619][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.02-21.43.15:655][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.02-21.43.15:719][187]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64,742ms to complete.
+[2022.07.02-21.43.15:719][187]LogFileHelpers: Loading map 'VehicleExampleMap1' took 0.273
+[2022.07.02-21.43.19:411][623]LogSlate: Took 0.002882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.02-21.43.22:995][ 12]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap147EBCEC341E6D7DBAF5D3982F3129259.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1.umap'
+[2022.07.02-21.43.23:011][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap1_BuiltData" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1_BuiltData.uasset" SILENT=true
+[2022.07.02-21.43.23:365][ 12]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap1_BuiltDataD65407444024EFCD69194CA62011E0A8.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1_BuiltData.uasset'
+[2022.07.02-21.43.24:243][116]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.43.24:251][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.24:251][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.43.24:263][116]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:43:24)
+[2022.07.02-21.43.24:263][116]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.43.24:287][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023749s)
+[2022.07.02-21.43.24:287][116]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.43.24:288][116]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2022.07.02-21.43.24:288][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.024735s)
+[2022.07.02-21.43.24:341][116]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.43.24:366][116]LogInit: FAudioDevice initialized.
+[2022.07.02-21.43.24:407][116]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.43.24:420][116]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.43.24
+[2022.07.02-21.43.24:426][116]LogWorld: Bringing up level for play took: 0.015326
+[2022.07.02-21.43.24:437][116]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.43.24:440][116]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2022.07.02-21.43.24:459][116]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 0,331
+[2022.07.02-21.43.24:468][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.27:146][231]LogBlueprintUserMessages: [SedanNN19] Авария 19  Очков:4
+[2022.07.02-21.43.27:533][250]LogBlueprintUserMessages: [SedanNN14] Авария 14  Очков:6
+[2022.07.02-21.43.28:576][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.43.28:670][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.28:671][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.28:705][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.02-21.43.28:705][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.28:758][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.28:771][307]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.07.02-21.43.33:126][822]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.43.33:135][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.33:135][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.43.33:135][822]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:43:33)
+[2022.07.02-21.43.33:136][822]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.43.33:159][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023376s)
+[2022.07.02-21.43.33:160][822]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.43.33:160][822]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2022.07.02-21.43.33:160][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.024312s)
+[2022.07.02-21.43.33:213][822]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.43.33:238][822]LogInit: FAudioDevice initialized.
+[2022.07.02-21.43.33:270][822]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.43.33:283][822]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.43.33
+[2022.07.02-21.43.33:288][822]LogWorld: Bringing up level for play took: 0.015321
+[2022.07.02-21.43.33:300][822]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.43.33:319][822]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 -0,809
+[2022.07.02-21.43.33:324][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.36:971][971]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:10
+[2022.07.02-21.43.37:033][973]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:11
+[2022.07.02-21.43.37:033][973]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:10
+[2022.07.02-21.43.37:068][974]LogBlueprintUserMessages: [SedanNN14] Авария 14  Очков:8
+[2022.07.02-21.43.37:304][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.43.37:389][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.37:390][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.37:420][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.02-21.43.37:420][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.37:465][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.37:481][992]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.07.02-21.43.41:747][502]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.43.41:755][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.41:756][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.43.41:756][502]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:43:41)
+[2022.07.02-21.43.41:756][502]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.43.41:779][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023326s)
+[2022.07.02-21.43.41:780][502]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.43.41:780][502]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2022.07.02-21.43.41:780][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.024402s)
+[2022.07.02-21.43.41:834][502]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.43.41:859][502]LogInit: FAudioDevice initialized.
+[2022.07.02-21.43.41:890][502]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.43.41:903][502]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.43.41
+[2022.07.02-21.43.41:908][502]LogWorld: Bringing up level for play took: 0.015182
+[2022.07.02-21.43.41:919][502]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.43.41:938][502]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 -0,19
+[2022.07.02-21.43.41:944][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.46:041][691]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:10
+[2022.07.02-21.43.46:041][691]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:10
+[2022.07.02-21.43.46:041][691]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:10
+[2022.07.02-21.43.46:042][691]LogBlueprintUserMessages: [SedanNN7] Авария N7  Очков:10
+[2022.07.02-21.43.46:042][691]LogBlueprintUserMessages: [SedanNN8] Авария N8  Очков:10
+[2022.07.02-21.43.46:042][691]LogBlueprintUserMessages: [SedanNN9] Авария N9  Очков:10
+[2022.07.02-21.43.53:222][111]LogBlueprintUserMessages: [SedanNN30] Авария 30  Очков:18
+[2022.07.02-21.43.53:223][111]LogBlueprintUserMessages: [SedanNN31] Авария 31  Очков:18
+[2022.07.02-21.43.53:239][112]LogBlueprintUserMessages: [SedanNN27] Авария 27  Очков:18
+[2022.07.02-21.43.53:240][112]LogBlueprintUserMessages: [SedanNN28] Авария 28  Очков:18
+[2022.07.02-21.43.53:240][112]LogBlueprintUserMessages: [SedanNN29] Авария 29  Очков:18
+[2022.07.02-21.43.53:240][112]LogBlueprintUserMessages: [SedanNN3] Авария N3  Очков:18
+[2022.07.02-21.43.57:756][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.43.57:850][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.57:851][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.57:879][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.02-21.43.57:879][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.43.57:910][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.43.57:940][427]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.07.02-21.44.13:558][299]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.44.13:566][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.44.13:567][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.44.13:567][299]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:44:13)
+[2022.07.02-21.44.13:567][299]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.44.13:591][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023429s)
+[2022.07.02-21.44.13:591][299]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.44.13:592][299]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2022.07.02-21.44.13:592][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.024449s)
+[2022.07.02-21.44.13:645][299]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.44.13:669][299]LogInit: FAudioDevice initialized.
+[2022.07.02-21.44.13:696][299]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.44.13:709][299]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.44.13
+[2022.07.02-21.44.13:714][299]LogWorld: Bringing up level for play took: 0.014891
+[2022.07.02-21.44.13:725][299]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.44.13:744][299]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 -0,383
+[2022.07.02-21.44.13:749][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.44.16:440][420]LogBlueprintUserMessages: [SedanNN30] Авария 30  Очков:2
+[2022.07.02-21.44.16:785][438]LogBlueprintUserMessages: [SedanNN29] Авария 29  Очков:2
+[2022.07.02-21.44.17:085][454]LogBlueprintUserMessages: [SedanNN27] Авария 27  Очков:7
+[2022.07.02-21.44.17:250][463]LogBlueprintUserMessages: [SedanNN23] Авария 23  Очков:10
+[2022.07.02-21.44.24:763][883]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:24
+[2022.07.02-21.44.29:076][103]LogBlueprintUserMessages: [SedanNN25] Авария 25  Очков:25
+[2022.07.02-21.44.29:192][108]LogBlueprintUserMessages: [SedanNN22] Авария 22  Очков:2
+[2022.07.02-21.44.32:658][258]LogBlueprintUserMessages: [SedanNN17] Авария 17  Очков:2
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN10] Авария 10  Очков:6
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN11] Авария 11  Очков:2
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN12] Авария 12  Очков:100
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN13] Авария 13  Очков:84
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN14] Авария 14  Очков:2
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN15] Авария 15  Очков:2
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN16] Авария 16  Очков:0
+[2022.07.02-21.45.13:653][396]LogBlueprintUserMessages: [SedanNN18] Авария 18  Очков:2
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN19] Авария 19  Очков:1
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN2] Авария N2  Очков:0
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN20] Авария 20  Очков:2
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN21] Авария 21  Очков:2
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN24] Авария 24  Очков:1
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN26] Авария 26  Очков:4
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN28] Авария 28  Очков:0
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN3] Авария N3  Очков:0
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN31] Авария 31  Очков:0
+[2022.07.02-21.45.13:654][396]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:0
+[2022.07.02-21.45.13:655][396]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:0
+[2022.07.02-21.45.13:655][396]LogBlueprintUserMessages: [SedanNN7] Авария N7  Очков:2
+[2022.07.02-21.45.13:655][396]LogBlueprintUserMessages: [SedanNN8] Авария N8  Очков:2
+[2022.07.02-21.45.13:659][396]LogBlueprintUserMessages: [Restarter_2] SedanNN12
+[2022.07.02-21.45.13:660][396]LogBlueprintUserMessages: [Restarter_2] SedanNN13
+[2022.07.02-21.45.13:660][396]LogBlueprintUserMessages: [Restarter_2] SedanNN25
+[2022.07.02-21.45.13:660][396]LogBlueprintUserMessages: [Restarter_2] SedanNN6
+[2022.07.02-21.45.13:661][396]LogBlueprintUserMessages: [Restarter_2] SedanNN23
+[2022.07.02-21.45.13:661][396]LogBlueprintUserMessages: [SedanNN9] Авария N9  Очков:1
+[2022.07.02-21.45.13:666][397]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.45.13:670][397]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.45.14:107][397]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.07.02-21.45.14:107][397]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.45.14:137][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:138][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:138][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:139][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:140][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:140][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:141][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:141][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:142][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:143][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:143][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:144][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:145][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:146][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:146][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:147][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:147][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:148][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:149][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:149][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:150][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:151][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:151][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:152][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:153][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:153][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:154][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:154][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:155][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:156][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:156][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:157][397]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.45.14:158][397]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.07.03-00.45.14
+[2022.07.02-21.45.14:163][397]LogWorld: Bringing up level for play took: 0.053078
+[2022.07.02-21.45.14:182][397]LogLoad: Took 0.511513 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2022.07.02-21.45.19:245][607]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:15
+[2022.07.02-21.45.19:839][634]LogBlueprintUserMessages: [SedanNN30] Авария 30  Очков:16
+[2022.07.02-21.45.20:259][654]LogBlueprintUserMessages: [SedanNN12] Авария 12  Очков:17
+[2022.07.02-21.45.20:280][655]LogBlueprintUserMessages: [SedanNN28] Авария 28  Очков:17
+[2022.07.02-21.45.20:402][661]LogBlueprintUserMessages: [SedanNN31] Авария 31  Очков:17
+[2022.07.02-21.45.20:421][662]LogBlueprintUserMessages: [SedanNN11] Авария 11  Очков:17
+[2022.07.02-21.45.20:441][663]LogBlueprintUserMessages: [SedanNN26] Авария 26  Очков:17
+[2022.07.02-21.45.20:479][665]LogBlueprintUserMessages: [SedanNN22] Авария 22  Очков:17
+[2022.07.02-21.45.20:872][686]LogBlueprintUserMessages: [SedanNN13] Авария 13  Очков:17
+[2022.07.02-21.45.21:318][710]LogBlueprintUserMessages: [SedanNN25] Авария 25  Очков:18
+[2022.07.02-21.45.22:109][754]LogBlueprintUserMessages: [SedanNN19] Авария 19  Очков:19
+[2022.07.02-21.45.22:147][756]LogBlueprintUserMessages: [SedanNN8] Авария N8  Очков:19
+[2022.07.02-21.45.44:907][137]LogBlueprintUserMessages: [SedanNN21] Авария 21  Очков:63
+[2022.07.02-21.45.44:908][137]LogBlueprintUserMessages: [SedanNN9] Авария N9  Очков:64
+[2022.07.02-21.45.45:032][145]LogBlueprintUserMessages: [SedanNN20] Авария 20  Очков:65
+[2022.07.02-21.45.45:188][155]LogBlueprintUserMessages: [SedanNN16] Авария 16  Очков:63
+[2022.07.02-21.46.13:829][203]LogBlueprintUserMessages: [SedanNN10] Авария 10  Очков:134
+[2022.07.02-21.46.13:829][203]LogBlueprintUserMessages: [SedanNN14] Авария 14  Очков:133
+[2022.07.02-21.46.13:829][203]LogBlueprintUserMessages: [SedanNN15] Авария 15  Очков:135
+[2022.07.02-21.46.13:829][203]LogBlueprintUserMessages: [SedanNN17] Авария 17  Очков:133
+[2022.07.02-21.46.13:829][203]LogBlueprintUserMessages: [SedanNN18] Авария 18  Очков:133
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN2] Авария N2  Очков:134
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN23] Авария 23  Очков:134
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN24] Авария 24  Очков:134
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN27] Авария 27  Очков:134
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN29] Авария 29  Очков:134
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN3] Авария N3  Очков:132
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:132
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:135
+[2022.07.02-21.46.13:830][203]LogBlueprintUserMessages: [Restarter_2] SedanNN15
+[2022.07.02-21.46.13:831][203]LogBlueprintUserMessages: [Restarter_2] SedanNN6
+[2022.07.02-21.46.13:831][203]LogBlueprintUserMessages: [Restarter_2] SedanNN10
+[2022.07.02-21.46.13:832][203]LogBlueprintUserMessages: [Restarter_2] SedanNN2
+[2022.07.02-21.46.13:832][203]LogBlueprintUserMessages: [Restarter_2] SedanNN23
+[2022.07.02-21.46.13:833][203]LogBlueprintUserMessages: [SedanNN7] Авария N7  Очков:132
+[2022.07.02-21.46.13:837][204]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.46.13:839][204]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.46.14:011][204]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.07.02-21.46.14:011][204]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.46.14:040][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:040][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:041][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:042][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:042][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:043][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:044][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:044][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:045][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:045][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:046][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:047][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:047][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:048][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:049][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:049][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:050][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:050][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:051][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:052][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:052][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:053][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:054][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:054][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:055][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:055][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:056][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:057][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:057][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:058][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:059][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:059][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2022.07.02-21.46.14:060][204]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.07.03-00.46.14
+[2022.07.02-21.46.14:065][204]LogWorld: Bringing up level for play took: 0.052166
+[2022.07.02-21.46.14:084][204]LogLoad: Took 0.245706 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2022.07.02-21.46.17:193][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.17:280][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.46.17:281][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.46.17:310][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.02-21.46.17:311][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.46.17:347][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.46.17:367][323]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.07.02-21.46.22:005][874]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.46.22:013][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.46.22:013][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.46.22:013][874]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:46:22)
+[2022.07.02-21.46.22:013][874]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.46.22:036][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022243s)
+[2022.07.02-21.46.22:036][874]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.46.22:036][874]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2022.07.02-21.46.22:036][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.023174s)
+[2022.07.02-21.46.22:091][874]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.46.22:116][874]LogInit: FAudioDevice initialized.
+[2022.07.02-21.46.22:148][874]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.46.22:161][874]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.46.22
+[2022.07.02-21.46.22:166][874]LogWorld: Bringing up level for play took: 0.014889
+[2022.07.02-21.46.22:178][874]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.46.22:198][874]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 0,07
+[2022.07.02-21.46.22:203][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.46.25:744][ 27]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:10
+[2022.07.02-21.46.25:744][ 27]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:10
+[2022.07.02-21.46.25:744][ 27]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:10
+[2022.07.02-21.46.25:744][ 27]LogBlueprintUserMessages: [SedanNN7] Авария N7  Очков:10
+[2022.07.02-21.46.25:744][ 27]LogBlueprintUserMessages: [SedanNN8] Авария N8  Очков:10
+[2022.07.02-21.46.25:745][ 27]LogBlueprintUserMessages: [SedanNN9] Авария N9  Очков:10
+[2022.07.02-21.46.30:356][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.30:968][322]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN9)
+[2022.07.02-21.46.33:055][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.43:041][718]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN21)
+[2022.07.02-21.46.44:678][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.51:341][660]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN30)
+[2022.07.02-21.46.52:211][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.53:949][930]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN19)
+[2022.07.02-21.46.55:269][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.46.57:333][293]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN15)
+[2022.07.02-21.46.58:562][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.47.04:655][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.47.07:046][209]LogBlueprintUserMessages: [SedanNN27] Авария 27  Очков:23
+[2022.07.02-21.47.07:047][209]LogBlueprintUserMessages: [SedanNN28] Авария 28  Очков:23
+[2022.07.02-21.47.07:047][209]LogBlueprintUserMessages: [SedanNN29] Авария 29  Очков:23
+[2022.07.02-21.47.07:047][209]LogBlueprintUserMessages: [SedanNN3] Авария N3  Очков:23
+[2022.07.02-21.47.07:047][209]LogBlueprintUserMessages: [SedanNN30] Авария 30  Очков:23
+[2022.07.02-21.47.07:047][209]LogBlueprintUserMessages: [SedanNN31] Авария 31  Очков:23
+[2022.07.02-21.47.11:921][518]LogBlueprintUserMessages: [SedanNN21] Авария 21  Очков:25
+[2022.07.02-21.47.11:921][518]LogBlueprintUserMessages: [SedanNN22] Авария 22  Очков:25
+[2022.07.02-21.47.11:921][518]LogBlueprintUserMessages: [SedanNN23] Авария 23  Очков:25
+[2022.07.02-21.47.11:921][518]LogBlueprintUserMessages: [SedanNN24] Авария 24  Очков:25
+[2022.07.02-21.47.11:922][518]LogBlueprintUserMessages: [SedanNN25] Авария 25  Очков:25
+[2022.07.02-21.47.11:922][518]LogBlueprintUserMessages: [SedanNN26] Авария 26  Очков:25
+[2022.07.02-21.47.18:252][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.47.18:333][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.47.18:334][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.47.18:365][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.02-21.47.18:366][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.47.18:400][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.02-21.47.18:429][991]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.07.02-21.47.24:681][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.47.26:732][971]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg
+[2022.07.02-21.47.27:048][971]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2022.07.02-21.47.27:594][971]LogSlate: Took 0.003051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.02-21.48.13:616][189]LogTemp: Repeating last play command: Simulate
+[2022.07.02-21.48.13:624][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.48.13:625][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.02-21.48.13:625][189]PIE: New page: SIE session: VehicleExampleMap1 (3 июля 2022 г., 3:48:13)
+[2022.07.02-21.48.13:625][189]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1
+[2022.07.02-21.48.13:650][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024380s)
+[2022.07.02-21.48.13:650][189]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.48.13:650][189]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2022.07.02-21.48.13:651][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1 to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 (0.025355s)
+[2022.07.02-21.48.13:713][189]LogInit: XAudio2 using 'Динамики (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.02-21.48.13:738][189]LogInit: FAudioDevice initialized.
+[2022.07.02-21.48.13:767][189]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.07.02-21.48.13:780][189]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1.VehicleExampleMap1 up for play (max tick rate 0) at 2022.07.03-00.48.13
+[2022.07.02-21.48.13:785][189]LogWorld: Bringing up level for play took: 0.014897
+[2022.07.02-21.48.13:796][189]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.07.02-21.48.13:815][189]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap1 -0,312
+[2022.07.02-21.48.13:821][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1:PersistentLevel.VehicleExampleMap1'
+[2022.07.02-21.48.16:568][308]LogBlueprintUserMessages: [SedanNN6] Авария N6  Очков:3
+[2022.07.02-21.48.16:805][320]LogBlueprintUserMessages: [SedanNN4] Авария N4  Очков:6
+[2022.07.02-21.48.16:960][328]LogBlueprintUserMessages: [SedanNN8] Авария N8  Очков:4
+[2022.07.02-21.48.17:436][353]LogBlueprintUserMessages: [SedanNN5] Авария N5  Очков:8
+[2022.07.02-21.48.22:168][617]LogBlueprintUserMessages: [SedanNN23] Авария 23  Очков:16
+[2022.07.02-21.48.22:656][645]LogBlueprintUserMessages: [SedanNN3] Авария N3  Очков:17
+[2022.07.02-21.48.23:130][673]LogBlueprintUserMessages: [SedanNN28] Авария 28  Очков:19
+[2022.07.02-21.48.23:522][697]LogBlueprintUserMessages: [SedanNN31] Авария 31  Очков:20
+[2022.07.02-21.48.23:697][708]LogBlueprintUserMessages: [SedanNN27] Авария 27  Очков:18
+[2022.07.02-21.48.24:482][758]LogBlueprintUserMessages: [SedanNN30] Авария 30  Очков:18
+[2022.07.02-21.48.26:595][898]LogBlueprintUserMessages: [SedanNN29] Авария 29  Очков:25
+[2022.07.02-21.48.29:116][ 69]LogBlueprintUserMessages: [SedanNN22] Авария 22  Очков:25
+[2022.07.02-21.48.29:145][ 71]LogBlueprintUserMessages: [SedanNN26] Авария 26  Очков:25
+[2022.07.02-21.48.29:186][ 74]LogBlueprintUserMessages: [SedanNN25] Авария 25  Очков:25
+[2022.07.02-21.48.29:227][ 77]LogBlueprintUserMessages: [SedanNN24] Авария 24  Очков:25
+[2022.07.02-21.48.30:321][160]LogBlueprintUserMessages: [SedanNN21] Авария 21  Очков:27
+[2022.07.02-21.48.58:508][400]LogBlueprintUserMessages: [SedanNN18] Авария 18  Очков:84
+[2022.07.02-21.49.09:057][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.49.09:909][325]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN16)
+[2022.07.02-21.49.14:170][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.49.19:065][375]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN19)
+[2022.07.02-21.49.19:849][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.49.22:868][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN10] Авария 10  Очков:108
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN11] Авария 11  Очков:97
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN12] Авария 12  Очков:113
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN13] Авария 13  Очков:90
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN14] Авария 14  Очков:80
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN15] Авария 15  Очков:102
+[2022.07.02-21.49.28:414][226]LogBlueprintUserMessages: [SedanNN16] Авария 16  Очков:121
+[2022.07.02-21.49.28:415][226]LogBlueprintUserMessages: [SedanNN17] Авария 17  Очков:84
+[2022.07.02-21.49.28:415][226]LogBlueprintUserMessages: [SedanNN19] Авария 19  Очков:116
+[2022.07.02-21.49.28:415][226]LogBlueprintUserMessages: [SedanNN2] Авария N2  Очков:84
+[2022.07.02-21.49.28:415][226]LogBlueprintUserMessages: [SedanNN20] Авария 20  Очков:84
+[2022.07.02-21.49.28:415][226]LogBlueprintUserMessages: [SedanNN7] Авария N7  Очков:3
+[2022.07.02-21.49.28:417][226]LogBlueprintUserMessages: [Restarter_2] SedanNN16
+[2022.07.02-21.49.28:418][226]LogBlueprintUserMessages: [Restarter_2] SedanNN19
+[2022.07.02-21.49.28:418][226]LogBlueprintUserMessages: [Restarter_2] SedanNN12
+[2022.07.02-21.49.28:418][226]LogBlueprintUserMessages: [Restarter_2] SedanNN10
+[2022.07.02-21.49.28:419][226]LogBlueprintUserMessages: [Restarter_2] SedanNN15
+[2022.07.02-21.49.28:419][226]LogBlueprintUserMessages: [SedanNN9] Авария N9  Очков:3
+[2022.07.02-21.49.28:425][227]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.49.28:425][227]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2022.07.02-21.49.29:036][227]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.585 s
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: === Handled ensure: ===
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: 
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: Ensure condition failed: !ActorComponent->IsRegistered() || ActorComponent->GetScene() != this [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 2700]
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: Component Name: PhysicsHandleComponent /Engine/Transient.PhysicsHandleComponent_1 World Name: World None.None Component Asset: None
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: Stack: 
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: [Callstack] 0x00007fff469371f6 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: [Callstack] 0x00007fff46670c92 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: [Callstack] 0x00007fff4668b356 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.49.29:037][227]LogOutputDevice: Error: [Callstack] 0x00007fff18ba5ec4 UE4Editor-Renderer.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff212a5cac UE4Editor-Engine.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff22cd2e41 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff22c60f45 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff22c23f89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff22c234ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff211deaad UE4Editor-Engine.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff2119fd5c UE4Editor-Engine.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff21133483 UE4Editor-Engine.dll!UnknownFunction []
+[2022.07.02-21.49.29:038][227]LogOutputDevice: Error: [Callstack] 0x00007fff211d781d UE4Editor-Engine.dll!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007fff1e0e6f02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007fff1e9df666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007ff71b945cbd UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007ff71b955b3c UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007ff71b955bba UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007ff71b963dac UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007ff71b965aaa UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007fff69be7034 KERNEL32.DLL!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: [Callstack] 0x00007fff6bb62651 ntdll.dll!UnknownFunction []
+[2022.07.02-21.49.29:039][227]LogOutputDevice: Error: 
+[2022.07.02-21.49.29:044][227]LogStats:                SubmitErrorReport -  0.000 s
