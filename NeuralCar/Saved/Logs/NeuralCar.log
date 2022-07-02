@@ -339,3 +339,116 @@ LogInit: Object subsystem initialized
 [2022.07.02-21.00.52:039][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000182 seconds (updated 0 objects)
 [2022.07.02-21.00.52:043][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.07.02-21.00.52:083][  0]LogSlate: Took 0.010033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.02-21.01.26:912][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.01.37:066][960]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN20)
+[2022.07.02-21.01.42:943][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.01.46:402][  5]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.02-21.01.46:408][  5]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/Sedan/RestarterGeneticAlg.RestarterGeneticAlg
+[2022.07.02-21.01.46:869][  5]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2022.07.02-21.01.47:496][  5]LogSlate: Took 0.004011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.02-21.01.47:653][  6]LogSlate: Took 0.004001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.02-21.02.45:329][695]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.02.45:329][695]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.02.48:204][914]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.903 s
+[2022.07.02-21.02.48:204][914]LogOutputDevice: Error: === Handled ensure: ===
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: 
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\InputCore\Private\InputCoreTypes.cpp] [Line: 717]
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_1078'
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: Stack: 
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff965e871f6 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff965bc0c92 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff965bdb356 UE4Editor-Core.dll!UnknownFunction []
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff97ef097d8 UE4Editor-InputCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff97ef0d6a5 UE4Editor-InputCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:205][914]LogOutputDevice: Error: [Callstack] 0x00007ff9655099a9 UE4Editor-Slate.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff97de4cfd6 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff97de40270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff97de4f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff97de3c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff9be25e858 USER32.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff9be25e299 USER32.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff97de50646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff7267554e5 UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff726765b3c UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.02.48:206][914]LogOutputDevice: Error: [Callstack] 0x00007ff726765bba UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.02.48:207][914]LogOutputDevice: Error: [Callstack] 0x00007ff726773dac UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.02.48:207][914]LogOutputDevice: Error: [Callstack] 0x00007ff726775aaa UE4Editor.exe!UnknownFunction []
+[2022.07.02-21.02.48:207][914]LogOutputDevice: Error: [Callstack] 0x00007ff9bf257034 KERNEL32.DLL!UnknownFunction []
+[2022.07.02-21.02.48:207][914]LogOutputDevice: Error: [Callstack] 0x00007ff9bf9e2651 ntdll.dll!UnknownFunction []
+[2022.07.02-21.02.48:207][914]LogOutputDevice: Error: 
+[2022.07.02-21.02.48:213][914]LogStats:                SubmitErrorReport -  0.000 s
+[2022.07.02-21.02.48:650][914]LogStats:                    SendNewReport -  0.438 s
+[2022.07.02-21.02.48:651][914]LogStats:             FDebug::EnsureFailed -  1.350 s
+[2022.07.02-21.05.31:711][303]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.05.31:711][303]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.05.40:733][352]LogSlate: Took 0.016694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.07.02-21.05.55:845][ 34]BlueprintLog: New page: Compile RestarterGeneticAlg
+[2022.07.02-21.06.29:605][852]BlueprintLog: New page: Compile RestarterGeneticAlg
+[2022.07.02-21.07.05:273][565]BlueprintLog: New page: Compile RestarterGeneticAlg
+[2022.07.02-21.07.05:795][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RestarterGeneticAlg" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/RestarterGeneticAlg.uasset" SILENT=true
+[2022.07.02-21.07.05:849][592]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/RestarterGeneticAlg5F67C1AD44E9A2B6AA744787017B48DA.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/RestarterGeneticAlg.uasset'
+[2022.07.02-21.07.12:938][306]LogMetaData: Removing '/Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg_C' ref from Metadata '/Game/VehicleBP/Sedan/RestarterGeneticAlg.PackageMetaData'
+[2022.07.02-21.07.12:938][306]LogMetaData: Removing '/Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg:Accident.K2Node_FunctionEntry_0' ref from Metadata '/Game/VehicleBP/Sedan/RestarterGeneticAlg.PackageMetaData'
+[2022.07.02-21.07.12:938][306]LogMetaData: Removing '/Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/VehicleBP/Sedan/RestarterGeneticAlg.PackageMetaData'
+[2022.07.02-21.07.12:939][306]LogMetaData: Removing '/Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg:LastAccident.K2Node_FunctionEntry_0' ref from Metadata '/Game/VehicleBP/Sedan/RestarterGeneticAlg.PackageMetaData'
+[2022.07.02-21.07.12:939][306]LogMetaData: Removing '/Game/VehicleBP/Sedan/HubRestarterGeneticAlg.SKEL_HubRestarterGeneticAlg_C' ref from Metadata '/Game/VehicleBP/Sedan/RestarterGeneticAlg.PackageMetaData'
+[2022.07.02-21.07.12:974][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/HubRestarterGeneticAlg" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset" SILENT=true
+[2022.07.02-21.07.13:018][306]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/HubRestarterGeneticAlgEFDDDAAB44E05B390BBC09B5C21A0EA4.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset'
+[2022.07.02-21.07.13:022][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RestarterGeneticAlg" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/RestarterGeneticAlg.uasset" SILENT=true
+[2022.07.02-21.07.13:025][306]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/RestarterGeneticAlg0E63D7474E8AED183DEA7DBFE911A890.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/RestarterGeneticAlg.uasset'
+[2022.07.02-21.07.15:207][431]LogSlate: Window 'Save Content' being destroyed
+[2022.07.02-21.07.15:687][431]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap871C4B3644741FF9D968C79501880DB8.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2022.07.02-21.07.15:708][431]LogFileHelpers: Saving map 'VehicleExampleMap' took 0.482
+[2022.07.02-21.07.15:725][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SedanNN" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/SedanNN.uasset" SILENT=true
+[2022.07.02-21.07.15:786][431]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/SedanNN28A3B1B245C8E59178205FBFE86EE30F.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/SedanNN.uasset'
+[2022.07.02-21.08.00:250][803]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.08.00:250][803]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.08.32:889][612]BlueprintLog: New page: Compile HubRestarterGeneticAlg
+[2022.07.02-21.08.32:928][612]LogClass: Warning: Type mismatch in NNHubName of HubRestarterGeneticAlg_C - Previous (FloatProperty) Current(StrProperty) for package:  FObjectReader
+[2022.07.02-21.08.36:391][968]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.08.36:391][968]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.02-21.08.48:996][369]BlueprintLog: New page: Compile HubRestarterGeneticAlg
+[2022.07.02-21.08.49:564][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/HubRestarterGeneticAlg" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset" SILENT=true
+[2022.07.02-21.08.49:607][406]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/HubRestarterGeneticAlg4BE372194AADAA3ABA6BAAA7A27792DC.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset'
+[2022.07.02-21.08.50:938][547]LogSlate: Window 'HubRestarterGeneticAlg' being destroyed
+[2022.07.02-21.08.50:945][547]LogSlate: Window 'HubRestarterGeneticAlg' being destroyed
+[2022.07.02-21.08.58:847][485]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg
+[2022.07.02-21.09.06:649][272]BlueprintLog: New page: Compile HubRestarterGeneticAlg
+[2022.07.02-21.09.07:116][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/HubRestarterGeneticAlg" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset" SILENT=true
+[2022.07.02-21.09.07:159][298]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/HubRestarterGeneticAlgDC4289F749FE4B5A5BFC5EA91F5FF420.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Sedan/HubRestarterGeneticAlg.uasset'
+[2022.07.02-21.09.07:601][344]LogSlate: Window 'HubRestarterGeneticAlg' being destroyed
+[2022.07.02-21.09.16:656][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.09.21:129][863]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN9)
+[2022.07.02-21.09.27:130][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.09.31:510][  4]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/Sedan/HubRestarterGeneticAlg.HubRestarterGeneticAlg
+[2022.07.02-21.10.22:359][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.10.28:332][884]LogAIModule: Creating AISystem for world VehicleExampleMap1
+[2022.07.02-21.10.29:512][ 15]LogAssetEditorManager: Opening Asset editor for World /Game/VehicleBP/Maps/VehicleExampleMap1.VehicleExampleMap1
+[2022.07.02-21.10.30:716][ 15]LogSlate: Window 'Save Content' being destroyed
+[2022.07.02-21.10.31:169][ 15]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap6BB39A4445595B2359E3718BBD2C149E.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2022.07.02-21.10.31:184][ 15]LogFileHelpers: Saving map 'VehicleExampleMap' took 0.461
+[2022.07.02-21.10.31:736][ 15]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap1458A743F4D9BC27E44556B91D62775AD.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1.umap'
+[2022.07.02-21.10.31:786][ 15]LogFileHelpers: Saving map 'VehicleExampleMap1' took 0.602
+[2022.07.02-21.10.31:787][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap1_BuiltData" FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1_BuiltData.uasset" SILENT=true
+[2022.07.02-21.10.31:999][ 15]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap1_BuiltData4D86BF2144DAEEB47A384D8221B32D33.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1_BuiltData.uasset'
+[2022.07.02-21.10.32:003][ 15]Cmd: MAP LOAD FILE="E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.02-21.10.32:003][ 15]LightingResults: New page: Lighting Build
+[2022.07.02-21.10.32:003][ 15]LoadErrors: New page: Loading map: VehicleExampleMap1.umap
+[2022.07.02-21.10.32:006][ 15]MapCheck: New page: Map Check
+[2022.07.02-21.10.32:006][ 15]LightingResults: New page: Lighting Build
+[2022.07.02-21.10.32:190][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.02-21.10.32:234][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.02-21.10.32:301][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66,042ms to complete.
+[2022.07.02-21.10.32:302][ 15]LogFileHelpers: Loading map 'VehicleExampleMap1' took 0.300
+[2022.07.02-21.10.33:990][202]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN24)
+[2022.07.02-21.10.38:201][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.10.42:332][194]LogEditorActor: Deleted Actor: PlayerStart
+[2022.07.02-21.10.42:333][194]LogEditorActor: Deleted Actor: PlayerStart
+[2022.07.02-21.10.42:334][194]LogEditorActor: Deleted Actor: PlayerStart
+[2022.07.02-21.10.42:357][194]LogEditorActor: Deleted 3 Actors (0.039 secs)
+[2022.07.02-21.10.47:030][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.11.08:053][232]LogEditorViewport: Clicking on Actor (LMB): SedanNN_C (SedanNN9)
+[2022.07.02-21.11.09:237][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.02-21.11.45:495][572]LogSlate: Window 'Save Content' being destroyed
+[2022.07.02-21.11.45:960][572]LogSavePackage: Moving 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Saved/VehicleExampleMap1E2A481E641C20A0C223A288F9F79FF15.tmp' to 'E:/GitStorage/UE4_NeuralCar/NeuralCar/Content/VehicleBP/Maps/VehicleExampleMap1.umap'
+[2022.07.02-21.11.45:975][572]LogFileHelpers: Saving map 'VehicleExampleMap1' took 0.463
